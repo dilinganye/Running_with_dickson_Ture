@@ -13,6 +13,7 @@
 	<carry_item file="common_armor_mk_super_text_4.carry_item" />
 	<carry_item file="common_armor_special_type_sentry.carry_item" />
 	<carry_item file="common_armor_support_sentry.carry_item" />
+	<carry_item file="common_armor_mk_s.carry_item" />
 	<carry_item file="sniper_armor.carry_item" />
 	
 	<!-- 联邦特种部队-->

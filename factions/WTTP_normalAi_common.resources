@@ -13,7 +13,7 @@
 
 	<!-- 投掷物 -->
 	<!--projectile key="B_w3_teg.projectile" --/>
-	<!-- 护甲 -->
+	<!-- 护甲-->
 	<carry_item key="MK_0.carry_item" />
 	<carry_item key="MK_1.carry_item" />
 	<carry_item key="MK_2.carry_item" />

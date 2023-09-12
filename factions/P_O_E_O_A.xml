@@ -301,7 +301,7 @@
 	
 	<!-- -------- -->
 	<!-- 普通 伞兵=Sentenceer -->
-	<soldier name="para" spawn_score="0.05" copy_from="frame_ai">
+	<soldier name="para" spawn_score="0.07" copy_from="frame_ai">
 		<character filename="P_O_E_O_A_default_male.character"/>
 		<ai filename="default.ai" />
 		
@@ -322,13 +322,13 @@
 
 	<!-- -------- -->
 	<!-- 普通 精英 -->
-	<soldier name="eilte" spawn_score="0.02" squad_size_xp_cap="1.0" copy_from="frame_ai">
+	<soldier name="eilte" spawn_score="0.1" squad_size_xp_cap="1.0" copy_from="frame_ai">
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />
 		<model filename="Y_M_Sweeper_Analyseer.xml" />
 		<model filename="Y_M_Sweeper_Soilat.xml" />     
 
-		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+		<resources clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
 					<!-- Only Blue Guns -->
 			<weapon key="Y_w_arbitor.weapon" enabled="1" />
 			<weapon key="Y_w_fusion.weapon" enabled="1" />

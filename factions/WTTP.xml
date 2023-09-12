@@ -271,7 +271,7 @@
 	
 	<!-- -------- -->
 	<!-- 普通 伞兵 -->
-	<soldier name="para" spawn_score="0.05" copy_from="frame_ai">
+	<soldier name="para" spawn_score="0.07" copy_from="frame_ai">
 		<character filename="WTTP_default_female.character" />
 		<ai filename="default.ai" />
 		
@@ -294,13 +294,13 @@
 
 	<!-- -------- -->
 	<!-- 普通 精英 -->
-	<soldier name="eilte" spawn_score="0.02" squad_size_xp_cap="1.0" copy_from="frame_ai">
+	<soldier name="eilte" spawn_score="0.1" squad_size_xp_cap="1.0" copy_from="frame_ai">
 		<character filename="default_miniboss_male.character" />
 		<ai filename="elite.ai" />
 		<model filename="G_M_Eilte_ranger.xml" />
 		<model filename="G_M_Elite_mkx.xml" />     
 
-		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+		<resources clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
 					<!-- Only Blue Guns -->
 			<weapon key="G_w_T81.weapon" enabled="1" />
 			<weapon key="G_w2_thorns.weapon" enabled="1" />

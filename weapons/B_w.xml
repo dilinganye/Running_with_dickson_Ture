@@ -16,6 +16,7 @@
   <weapon file="B_w_SpecialZone_Balance_ai.weapon" />
   <weapon file="B_w_SpecialZone_Decrees.weapon" />
   <weapon file="B_w_SpecialZone_Justice.weapon" />
+  <weapon file="B_w_SpecialZone_Sentence.weapon" />
   
   
 </weapons>

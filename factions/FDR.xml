@@ -135,6 +135,7 @@
 			<weapon key="B_w_SpecialZone_Balance.weapon" enabled="0"/>
 			<weapon key="B_w_SpecialZone_Decrees.weapon" enabled="0"/>
 			<weapon key="B_w_SpecialZone_Justice.weapon" enabled="0"/>
+			<weapon key='B_w_SpecialZone_Sentence.weapon' enabled="0"/>
 		
 			<call key="paratroopers_spz_radio.call" enabled="0" />
 			<call key="paratroopers_spz_huge_reinforce.call" enabled="0" />
@@ -365,6 +366,7 @@
 					<!-- Only Blue Guns -->
 			<weapon key="B_w_SpecialZone_Balance_ai.weapon" enabled="1" />
 			<weapon key="B_w_escortMkII.weapon" enabled="1" />
+			<weapon key='B_w_SpecialZone_Sentence.weapon' enabled="1"/>
 			<!-- wearables -->
 			<carry_item key="B_M_spz_armor_shooter.carry_item" enabled="1" />
 			<!-- backpack -->
@@ -463,6 +465,7 @@
 		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
 					<!-- Only Blue Guns -->
 			<weapon key="B_w_SpecialZone_Justice.weapon" enabled="1" />
+			<weapon key='B_w_SpecialZone_Sentence.weapon' enabled="1"/>
 			<!-- wearables -->
 			<carry_item key="B_M_spz_armor_sentry.carry_item" enabled="1" />
 			<!-- backpack -->

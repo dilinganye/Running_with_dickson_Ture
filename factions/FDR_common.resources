@@ -14,6 +14,7 @@
 		<weapon key='B_w_SpecialZone_Balance.weapon'/>
 		<weapon key='B_w_SpecialZone_Decrees.weapon'/>
 		<weapon key='B_w_SpecialZone_Justice.weapon'/>
+		<weapon key='B_w_SpecialZone_Sentence.weapon'/>
 
 	<!-- 副手 -->
 		<weapon key='B_w2_crack.weapon'/>

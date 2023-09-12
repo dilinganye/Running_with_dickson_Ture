@@ -36,7 +36,7 @@
     <model filename="B_w_SpecialZone_Justice.xml" />
 
     <hud_icon filename="hud_b_w_SpecialZone_Justice.png" />
-    <commonness value="0.002" in_stock="1" can_respawn_with="1"/>
+    <commonness value="0.002" in_stock="1" can_respawn_with="0"/>
     <inventory encumbrance="10.0" price="1500.0" />
 
     <weak_hand_hold offset="0.4" />

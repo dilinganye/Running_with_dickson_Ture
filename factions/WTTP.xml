@@ -30,7 +30,7 @@
 		<hud_icon filename="hud_rank5.png" />
 	</rank>
 	<rank xp="0.6" name="tree priest">
-		<hud_icon filename="guard presbyter" />
+		<hud_icon filename="hud_rank6.png" />
 	</rank>
 	<rank xp="0.8" name="foliage bishop">
 		<hud_icon filename="hud_rank7.png" />

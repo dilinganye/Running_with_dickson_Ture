@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 邪教 基础AI总物品，类似杂兵和混杂的普通精英 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key="G_w_N21.weapon" />
+		<weapon key="G_w_N47.weapon" />
+		<weapon key="G_w_N57.weapon" />
+		<weapon key="G_w_N90.weapon" />
+
+	<!-- 副手 -->
+		<weapon key="G_w2_thistles.weapon" />
+
+	<!-- 投掷物 -->
+	<!--projectile key="B_w3_teg.projectile" --/>
+	<!-- 护甲 -->
+	<carry_item key="MK_0.carry_item" />
+	<carry_item key="MK_1.carry_item" />
+	<carry_item key="MK_2.carry_item" />
+	<carry_item key="MK_3.carry_item" />
+
+	<!-- 电台支援 -->
+		<call key="paratroopers1b.call" />
+		<call key="paratroopers2b.call" />
+</resources>

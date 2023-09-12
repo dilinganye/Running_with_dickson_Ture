@@ -1,0 +1,8 @@
+Y_w_arbitor	裁决者SG
+Y_w_capsize	倾覆者MG
+Y_w_hellk  	何力科步枪RF
+Y_w_fusion	聚变ATRF
+Y_w_fillpud	填充AR
+Y_w_trenchor	堑壕SMG
+Y_w2_warn	警告HG
+Y_w2_gbc  	工兵铲

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<faction file="P_O_E_O_A.xml" />
+	<faction file="WTTP.xml" />
+	<faction file="FDR.xml" />
+</factions>

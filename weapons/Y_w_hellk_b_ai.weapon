@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="Y_w_hellk_b_ai.weapon" drop_count_factor_on_death="0.0">
+	<tag name="has_bayonet" />
+	<tag name="nrf" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.85" 
+	sustained_fire_grow_step="3.5" 
+	stance_accuracy_rate="1.75"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0"
+	name="Hellk Bayonet" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="135.0"
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.0"
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+	<drop_on_death_result class="spawn" instance_class="weapon" instance_key="Y_w_hellk_b.weapon" min_amount="1" max_amount="1" offset="0 1.0 0" position_spread="0 0" direction_spread="0 0" />
+
+	<next_in_chain key="Y_w_hellk.weapon" share_ammo="1" />
+	<stance state_key="standing" accuracy="0.863" />
+	<stance state_key="crouching" accuracy="0.94" />
+	<stance state_key="prone" accuracy="0.96" /> 
+	<stance state_key="over_wall" accuracy="0.96" />	
+	
+   	<animation key="recoil" ref="27" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
+  	<animation key="cycle" ref="30" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />	
+   	<animation state_key="reload" animation_key="reloading, dragunov_svd" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, sniper1, prone" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />      
+
+    <animation state_key="stabbing" animation_key="melee, bayonet" />
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="Energy_railRifles01.wav" pitch_variety="0.05" volume="0.9"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.5"/>
+	
+	<model filename="Y_w_hellk_b.xml" />
+	<hud_icon filename="hud_y_w_hellk_b.png" />
+	
+	<!-- Bayonet weapons have higher commonness since they don't spawn on Regulars, but serve as a 'common' weapon for Veterans & Assaults. -->
+	<commonness value="0.219" can_respawn_with="1" in_stock="0"/>
+	<inventory encumbrance="10.0" price="2.0" />
+	
+	<projectile file="bullet_yellow.projectile">
+		<result
+		class="hit"
+		kill_probability="1.125"
+		kill_decay_start_time="0.5"
+		kill_decay_end_time="0.6"
+		/>
+	</projectile>
+	
+</weapon>

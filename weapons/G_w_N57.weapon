@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" key="G_w_N57.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+    <tag name="cqb" />
+	<tag name="sg" />
+    <specification 	
+  retrigger_time="0.55" 
+  accuracy_factor="0.92" 
+  sustained_fire_grow_step="1.8" 
+  sustained_fire_diminish_rate="0.9" 
+  magazine_size="2" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  carry_in_two_hands="0" 
+  name="N57-SG" 
+  class="0" 
+  burst_shots="2"
+  barrel_offset="0.5" 
+  reload_one_at_a_time="0" 
+  sight_range_modifier="1.0" 
+  projectile_speed="90.0" 
+  projectiles_per_shot="6" />
+
+	<stance state_key="running" accuracy="0.325" />
+	<stance state_key="crouching" accuracy="0.75" />
+	<stance state_key="prone" accuracy="0.8" />
+	<stance state_key="over_wall" accuracy="0.85" />  
+
+	<animation state_key="recoil"	animation_key="recoil, pistol" />
+    <animation state_key="reload"	animation_key="reloading, sawn off shotgun" />
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	
+    <sound key="fire" fileref="Laser_Rifles02.wav" pitch_variety="0.05" volume="1.2" />
+    <sound key="magazine_out" fileref="revolver_cycle_in.wav" />
+    <sound key="magazine_in" fileref="revolver_magazine_out.wav" volume="1" />    
+    <sound key="cycle" fileref="revolver_magazine_in.wav" volume="1" />
+    <model filename="G_w_N57.xml" />
+
+    <hud_icon filename="hud_g_w_N57.png" />
+	<commonness value="0.05" in_stock="1" can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="80.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet_green.projectile">
+		<result 
+		class="hit" 
+		kill_probability="0.66" 
+		kill_decay_start_time="0.26" 
+		kill_decay_end_time="0.5"
+		/>
+	</projectile>
+    
+    <modifier class="speed" value="+0.00" />
+</weapon>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<!-- 通用护甲-->
+	<carry_item file="common_armor_mk_0.carry_item" /> 
+	<carry_item file="common_armor_mk_1.carry_item" />
+	<carry_item file="common_armor_mk_2.carry_item" />
+	<carry_item file="common_armor_mk_3.carry_item" />
+	<carry_item file="common_armor_mk_3_alt.carry_item" />
+	<carry_item file="common_armor_mk_X.carry_item" />
+	<carry_item file="common_armor_mk_super_text.carry_item" />
+	<carry_item file="common_armor_mk_super_text_2.carry_item" />
+	<carry_item file="common_armor_mk_super_text_3.carry_item" />
+	<carry_item file="common_armor_mk_super_text_4.carry_item" />
+	<carry_item file="common_armor_special_type_sentry.carry_item" />
+	<carry_item file="common_armor_support_sentry.carry_item" />
+	<carry_item file="sniper_armor.carry_item" />
+	
+	<!-- 联邦特种部队-->
+	<carry_item file="B_M_spz_armor_shooter.carry_item" />
+	<carry_item file="B_M_spz_armor_sniper.carry_item" />
+	<carry_item file="B_M_spz_armor_sentry.carry_item" />
+</carry_items>
+

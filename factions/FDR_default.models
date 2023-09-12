@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- /Framework--------------- -->
+	<!-- MK2--------------- -->
+
+	<!-- MK3--------------- -->
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3.carry_item"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2"/>
+	</model>   
+	<model filename="B_M_Sheilder.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3"/>
+	</model>   
+
+	<!-- MK3_alt--------------- -->
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_alt.carry_item"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1_alt"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2_alt"/>
+	</model>   
+	<model filename="B_M_Grenadier.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3_alt"/>
+	</model>   
+
+	<!-- MKX--------------- -->
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X.carry_item"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_1"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_2"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_3"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_4"/>
+	</model>   
+
+	<!-- MKTest--------------- -->
+	<model filename="B_M_SpecialZone_Shooter.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test.carry_item"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Shooter.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_1"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Shooter.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_2"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Shooter.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_3"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Shooter.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_4"/>
+	</model>   
+
+	<!-- MKTest2--------------- -->
+	<model filename="B_M_SpecialZone_Sentry.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2.carry_item"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sentry.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_1"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sentry.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_2"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sentry.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_3"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sentry.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_4"/>
+	</model>   
+
+	<!-- MKTest3--------------- -->
+	<model filename="B_M_SpecialZone_Sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3.carry_item"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_1"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_2"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_3"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_4"/>
+	</model>   
+
+	<!-- MKTest4--------------- -->
+	<model filename="B_M_SpecialZone_Radio.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test4.carry_item"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Radio.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test4_1"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Radio.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test4_2"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Radio.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test4_3"/>
+	</model>   
+	<model filename="B_M_SpecialZone_Radio.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test4_4"/>
+	</model>   
+	
+</models>

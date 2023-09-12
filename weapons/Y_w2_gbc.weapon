@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0" key="Y_w2_gbc.weapon" radius="0.25" >
+    <tag name="engineer" />
+    <specification 
+    can_shoot_standing="0" 
+    can_shoot_crouching="1" 
+    carry_in_two_hands="1" 
+    can_shoot_prone="0" 
+    name="Ordnance Shovel" 
+    class="5" 
+    spawn_instance_class="vehicle" 
+    spawn_instance_key="sandbag_cover.vehicle" 
+    consume="0" 
+    sight_range_modifier="1" 
+    slot="1"
+    deployment="1" 
+	deploy_fail_cancel="1" 
+	deploy_check_range_start_time="0.8"
+	stab_enabled="1"	
+	projectiles_per_shot="1" />
+<!--	<addon_model filename="backpack_sandbag.xml" /> -->
+	
+	<deploy_allow_surface_tag name="dirt" />
+	<deploy_allow_surface_tag name="snow" />	
+
+    <animation state_key="recoil" 		animation_key="recoil, digging" />	
+    <animation state_key="hold" 		animation_key="still, heavy weapon" />
+    <animation state_key="hold_on_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="hold_casual" 		animation_key="still, heavy weapon" />
+    <animation state_key="still_against_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="crouching" 		animation_key="crouch, still, large wrench" />
+    <animation state_key="walking" 		animation_key="walking, heavy weapon" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, large wrench" />
+	
+
+    <animation state_key="stabbing"	animation_key="melee, saber whip" />
+    <animation state_key="stabbing"	animation_key="melee, saber stab" />
+    <animation state_key="stabbing"	animation_key="melee, saber slash" />
+
+    <sound class="impact" fileref="shield_drop.wav" />    
+    <sound class="operation" key="dry_fire" fileref="shovel_denied.wav" pitch_variety="0.03" /> 	
+
+    <sound key="effect" fileref="dig.wav" pitch_variety="0.05" volume="0.8" /> 
+    <sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="1.0" />  
+    <sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.0" />
+
+    <model mesh_filename="Y_w2_gbc.xml" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.1" />
+
+    <hud_icon filename="hud_y_w2_gbc.png" />
+    <commonness value="0.00001" can_respawn_with="0" in_stock="1"/>
+    <inventory encumbrance="5.0" price="200.0" />
+
+    <modifier class="speed" value="-0.12" />
+
+</weapon>
+

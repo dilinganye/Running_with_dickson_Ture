@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon on_ground_up="0 0 1" drop_count_factor_on_death="0.5">
+	<tag name="assault" />
+	
+	<specification
+	spread_range="0.3"
+	sustained_fire_diminish_rate="0.87"
+	sight_range_modifier="1.0"/>
+
+	<!-- stance accuracy rate is default 8.0 -->
+	
+	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
+	
+	<modifier class="speed" value="-0.1" />
+
+	<sound class="impact" fileref="rifle_drop.wav" />
+	
+	<stance state_key="running" accuracy="0.35" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.865" />
+	<stance state_key="crouching" accuracy="0.915" />
+	<stance state_key="prone" accuracy="1.0" /> 
+	<stance state_key="prone_moving" accuracy="0.3" />
+	<stance state_key="over_wall" accuracy="1.0" />		
+	
+</weapon>

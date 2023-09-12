@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="特遣火力小组" key="paratroopers_spz_radio.call"
+	initiation_comment1="特遣小组请求进一步支援"
+	initiation_comment2="6人火力组"
+	acknowledge_comment="联邦特遣支援已突入战场"
+	launch_comment="联邦特遣支援已到达"
+  notify_metagame="1"  >
+
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="spz_shooter"
+           instance_spread="8 15 8" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+    <round instances="4"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.5">
+    </round>
+
+    <hud_icon filename="hud_paratroopers1.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.99" />
+    <inventory encumbrance="0.0" price="500.0" />
+
+</call>

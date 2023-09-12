@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 工团 阵营总物品，日后完善以后会单分AI物品以及玩家物品和掉落物品等 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key='Y_w_hellk.weapon'/>
+		<weapon key='Y_w_capsize.weapon'/>
+		<weapon key="Y_w_fillpud.weapon" />
+		<weapon key="Y_w_trenchor.weapon" />
+		<weapon key="Y_w_fusion.weapon" />
+
+	<!-- 副手 -->
+		<!--weapon key="Y_w2_gbc.weapon" /  -->
+		<weapon key="Y_w2_warn.weapon" />
+		<weapon key='Y_w_arbitor.weapon'/>
+
+	<!-- 投掷物 -->
+
+	<!-- 电台支援 -->
+		<call key="paratroopers1b.call" />
+		<call key="paratroopers2b.call" />
+	
+</resources>

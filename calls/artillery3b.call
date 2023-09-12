@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is 单门重炮压制-->
+<call name="artillery strike (2x16)" key="artillery3b.call"
+      initiation_comment1="Fire mission"
+      initiation_comment2="fire two rounds, artillery advised."
+      acknowledge_comment="Roger, wait two."
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way."
+	  notify_metagame="1">
+     
+    <round instances="15"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="15 15 15" 
+           common_spread="2 0 2" 
+           launch_time="6.0"
+           spawn_time="9.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+
+    <round instances="5"
+           instance_class="grenade"
+           instance_key="artillery_b_bigshell.projectile" 
+           instance_spread="4 150 4" 
+           common_spread="0 50 0"
+           launch_time="5.0"
+           spawn_time="8.0">
+     <sound class="launch" fileref="tank_shot_1.wav" volume="1.0" />
+     <sound class="launch" fileref="tank_shot_2.wav" volume="1.5" />
+     <sound class="launch" fileref="mortar_barrage.wav" volume="2.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.8" />
+    </round>
+
+
+    <hud_icon filename="hud_artillery1b.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="500.0" />
+
+</call>

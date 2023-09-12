@@ -1,0 +1,12 @@
+defend       	防卫者（普通AR）
+escortMkII	护卫者（特种AR）
+staror         	星卫（半自动RF）
+stifler         	遏制（MG）
+crack          	裂隙（HHG）
+advancor    	前展（弹鼓SG）
+
+B_w_SpecialZone_Affirm	断言RF
+B_w_SpecialZone_Balance	制衡AR
+B_w_SpecialZone_Sentence	判决SG
+B_w_SpecialZone_Decrees	律法SMG
+B_w_SpecialZone_Justice	公正MG

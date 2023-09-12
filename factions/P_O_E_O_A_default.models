@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<!-- MK2--------------- -->
+	<model filename="Y_M_Scavenger.xml">
+		<requirement class="carry_item" slot="1" key="MK_2.carry_item"/>
+	</model>   
+	<model filename="Y_M_Scavenger.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_1"/>
+	</model>   
+	<model filename="Y_M_Scavenger.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_2"/>
+	</model>   
+	<model filename="Y_M_Scavenger.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_3"/>
+	</model>   
+
+	<!-- MK3--------------- -->
+	<model filename="Y_M_Sweeper_Analyseer.xml">
+		<requirement class="carry_item" slot="1" key="MK_3.carry_item"/>
+	</model>   
+	<model filename="Y_M_Sweeper_Analyseer.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1"/>
+	</model>   
+	<model filename="Y_M_Sweeper_Analyseer.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2"/>
+	</model>   
+	<model filename="Y_M_Sweeper_Analyseer.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3"/>
+	</model>   
+
+	<!-- MK3_alt--------------- -->
+	<model filename="Y_M_Mortar.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_alt.carry_item"/>
+	</model>   
+	<model filename="Y_M_Mortar.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_1_alt"/>
+	</model>   
+	<model filename="Y_M_Mortar.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_2_alt"/>
+	</model>   
+	<model filename="Y_M_Mortar.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_3_alt"/>
+	</model>   
+
+	<!-- MKX--------------- -->
+	<model filename="Y_M_Sentenceer.xml">
+		<requirement class="carry_item" slot="1" key="MK_X.carry_item"/>
+	</model>   
+	<model filename="Y_M_Sentenceer.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_1"/>
+	</model>   
+	<model filename="Y_M_Sentenceer.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_2"/>
+	</model>   
+	<model filename="Y_M_Sentenceer.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_3"/>
+	</model>   
+	<model filename="Y_M_Sentenceer.xml">
+		<requirement class="carry_item" slot="1" key="MK_X_4"/>
+	</model>   
+	
+	
+	
+</models>

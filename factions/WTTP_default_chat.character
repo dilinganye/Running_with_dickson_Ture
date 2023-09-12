@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_base.character">
+<!--  这是工团劳工的基础对话！ -->
+  <comment key="Driver, abandon vehicle" text="技师，下来" />
+  <comment key="Driver, abandon vehicle" text="技师，跳车" />
+  <comment key="Gunner, abandon vehicle" text="武知，弃车" />
+  <comment key="Gunner, abandon vehicle" text="武知，下来" />
+  <comment key="Squad, abandon vehicle" text="信徒们，我们走" />
+  <comment key="Squad, abandon vehicle" text="如果这是低语之树的意愿" />
+  <comment key="Squad, abandon vehicle" text="如同低语之树的意愿" />
+  <comment key="Squad, abandon vehicle" text="为了低语之树" />
+  
+  <comment key="Squad, get out" text="如果这是低语之树的意愿" />
+  <comment key="Squad, get out" text="如同低语之树的意愿，下车" />
+  <comment key="Squad, get in" text="信徒们，归位" />
+  <comment key="Squad, get in" text="信徒们，归位" />
+  <comment key="Squad, get in" text="信徒们，上车" />
+  
+  <comment key="Squad, follow the vehicle" text="如果这是低语之树的意愿" />
+  <comment key="Squad, follow the vehicle" text="如同低语之树的意愿" />
+  <comment key="Squad, follow the vehicle" text="为了低语之树" />
+  
+  <comment key="Squad, follow me" text="青苔引导前路" />
+  <comment key="Squad, follow me" text="如同低语之树的意愿" />
+  <comment key="Squad, follow me" text="如果这是低语之树的意愿" />
+  <comment key="Squad, follow me" text="不要畏惧，林地在观察着" />
+  <comment key="Squad, follow me" text="如同青苔之谓传" />
+  <comment key="Squad, follow me" text="遵循青苔之馏" />
+  
+  <comment key="Driver, stop the vehicle" text="技师，盘根之理，停下" />
+  <comment key="Driver, stop the vehicle" text="技师，遵循盘根之理" />
+  <comment key="Driver, stop the vehicle" text="盘根之理引导我们停下" />
+  <comment key="Driver, stop the vehicle" text="盘根之理显现了！" />
+  <comment key="Gunner, fire at will" text="武知，发泄林地的怒火" />
+  <comment key="Gunner, fire at will" text="武知，发挥你最擅长的天赋" />
+  <comment key="Driver, stay close" text="技师，盘根紧随我身" />
+  <comment key="Driver, stay close" text="技师，盘根引导着我" />
+  <comment key="Driver, stay close" text="技师，盘根已谅诉一切" />
+  
+  <comment key="Driver, take us there" text="技师，请前往盘根之处" />
+  <comment key="Driver, take us there" text="技师，遵循青苔所擅长之理" />
+  <comment key="Driver, take us there" text="技师，如同林地之意愿" />
+  <comment key="Driver, take us there" text="技师，如同低语之言" />
+  <comment key="Driver, take us there" text="技师，青苔所向盘根" />
+  <comment key="Driver, take us there" text="低语在指引我们！" />
+  <comment key="Driver, take us there" text="技师，盘根在青苔之处" />
+  <comment key="Driver, take us there" text="遵循盘根与青苔之馏，技师" />
+  <comment key="Driver, over there" text="你险些错过盘根，技师！" />
+  <comment key="Driver, over there" text="技师，你越过了青苔！" />
+  <comment key="Driver, over there" text="技师，你在做什么！" />
+  <comment key="Driver, over there" text="不要忘记真理，技师！" />
+  
+  <comment key="Gunner, there" text="武知，休要忘记那真理！" />
+  <comment key="Gunner, there" text="武知，直视荆棘之硫！" />
+  <comment key="Gunner, there" text="武知，荆棘之硫注视着我们！" />
+  <comment key="Gunner, there" text="低语在指引我们！" />
+  <comment key="Gunner, there" text="武知，倾听林地！" />
+  
+  <comment key="Squad, move over there" text="青苔之谓传已经显现！" />
+  <comment key="Squad, move over there" text="青苔之馏显现在那里！" />
+  <comment key="Squad, move over there" text="青苔就在前方！" />
+  <comment key="Squad, change position" text="休要畏惧，荆棘藏匿于青苔之影！" />
+  <comment key="Squad, change position" text="荆棘之硫藏匿于青苔！" />
+  <comment key="Squad, change position" text="休要畏惧！" />
+  <comment key="Squad, change position" text="低语指引着！" />
+  <comment key="Squad, change position" text="如同林地之低语！！！" />
+  <comment key="Squad, change position" text="我，我看见了！" />
+  <comment key="Squad, change position" text="快！那是树的意愿！" />
+  <comment key="Squad, change position" text="啊啊啊，是的，快！" />
+  
+  
+  <comment key="We surrender!" text="不！！！" />
+  <comment key="We surrender!" text="我听不见低语了，不！" />
+  <comment key="We surrender!" text="不不不！我们不会被舍弃！" />
+  <comment key="We surrender!" text="那是...嬗变" />
+  <comment key="We surrender!" text="腐败缠身！我们完了！" />
+  <comment key="We surrender!" text="就差一点就能..." />
+  <comment key="We surrender!" text="真理在我眼前消逝了！你们这帮混蛋啊！！！" />
+  <comment key="We surrender!" text="荆棘压垮了我们！" />
+  <comment key="We surrender!" text="荆棘会吸干我们！" />
+  <comment key="We surrender!" text="我不要成为荆棘的养料！不！！！" />
+  <comment key="We surrender!" text="请原谅我们，林地，请原谅我们！" />
+  <comment key="We surrender!" text="不要遗弃我们！" />
+  <comment key="We surrender!" text="这不是真的..." />
+  <comment key="We surrender!" text="啊啊啊！！！" />
+  <comment key="We surrender!" text="呃...世界...世界安静了？" />
+  <comment key="We surrender!" text="我听不见低语了...？" />
+  <comment key="We surrender!" text="...林地...消失了？" />
+  <comment key="We surrender!" text="引导不见了..." />
+  <comment key="We surrender!" text="光...光芒不见了..." />
+  <comment key="We surrender!" text="...光舍弃了我" />
+  <comment key="We surrender!" text="...我好冷" />
+  <comment key="We surrender!" text="...我...我好困" />
+  <comment key="We surrender!" text="...我感觉喉咙好疼" />
+  <comment key="We surrender!" text="...我不想死" />
+  <comment key="We surrender!" text="" />
+  <comment key="We surrender!" text="" />
+  <comment key="We surrender!" text="" />
+  <comment key="We surrender!" text="" />
+
+	<comment key="Medic!" />
+	<comment key="Medic!" text="啊！我需要光！" />
+	<comment key="Medic!" text="光！" />
+	<comment key="Medic!" text="我好冷！我好冷！" />
+	<comment key="Medic!" text="我感到荆棘在我的喉咙中繁殖！" />
+	<comment key="Medic!" text="树啊，救我！" />
+	<comment key="Medic!" text="我...我看不见了！" />
+	<comment key="Medic!" text="救...好冷！好冷啊！" />
+	<comment key="Medic!" text="我要被硫化了！" />
+	
+  <comment key="I feel good!" text="光...回来了" />
+  <comment key="I feel good!" text="我感到了温暖..." />
+  <comment key="I feel good!" text="啊...谢..谢" />
+  <comment key="I feel good!" text="我感到...梦境..." />
+  <comment key="I feel good!" text="那是神迹..." />
+  <comment key="I feel good!" text="感谢低语..." />
+  <comment key="I feel good!" text="如果这是低语之树的意愿..." />
+  <comment key="I feel good!" text="我会起身...为了低语之树..." />
+  
+  <comment key="Hold on!" text="林地未曾放弃你..." />
+  <comment key="Hold on!" text="我会尽力..." />
+  <comment key="Hold on!" text="光芒很快会拯救你..." />
+  <comment key="Hold on!" text="林地将重归你的梦境！" />
+  <comment key="Hold on!" text="你未被遗忘！" />
+  <comment key="Hold on!" text="林地在注视着你！" />
+  <comment key="Hold on!" text="如果这是低语之树的意愿..." />
+  <comment key="Hold on!" text="林地的意愿不会被违背..." />
+  <comment key="Hold on!" text="林地不会断开..." />
+  <comment key="Hold on!" text="快回归梦境！" />
+  <comment key="Hold on!" text="这不被允许！" />
+  <comment key="Hold on!" text="你在嬗变，快停下！" />
+  <comment key="Hold on!" text="停下，不要加速腐败！" />
+  
+  <comment key="Move out" text="如果这是低语之树的意愿..." />
+  <comment key="Move out" text="*一些难以理解的祷文*" />
+  <comment key="Move out" text="随我吟诵祷文..." />
+  <comment key="Move out" text="信徒们！低语之树已指明前路！" />
+  <comment key="Move out" text="我获得了第四重启示..." />
+  <comment key="Move out" text="正如低语所言..." />
+  <comment key="Move out" text="林地彰示青苔，正如林地所言" />
+  
+  <comment key="Reloading" text="为了低语之树" />
+  <comment key="Reloading" text="低语之树的意愿..." />
+  <comment key="Reloading" text="伪炉枝叶揭露其身..." />
+  <comment key="Reloading" text="此非夜晚亦非黎明..." />
+  <comment key="Reloading" text="遵循林地的意愿" />
+  <comment key="Reloading" text="林地在观察着" />
+  <comment key="Reloading" text="我们不会放弃真理" />
+  <comment key="Reloading" text="接受真理吧，异教徒们" />
+  <comment key="Reloading" text="异教徒们，放弃吧！" />
+  <comment key="Reloading" text="将荆棘与亚麻赠与！" />
+  <comment key="Reloading" text="纯白朽木不曾腐败！" />
+  <comment key="Reloading" text="...逆光之卵萌于神侵" />
+  <comment key="Reloading" text="...第五重方向重现于冥" />
+
+	<comment key="Hmm, no signal" text="看来敌人设立了干扰..." />
+	<comment key="Hmm, no signal" text="我只能听见杂波的咆哮..." />
+	<comment key="Hmm, no signal" text="啊...杂波的声音..." />
+	<comment key="Hmm, no signal" text="杂波干扰了我对林地的情愿..." />
+	<comment key="cancel radio call" text="遵循林地的意愿" />
+	<comment key="cancel radio call" text="如果这是林地的意愿..." />
+	<comment key="initiate radio call" text="我已大声呼号，念诵而不得的&#37;rank_name拜请援助" />
+	<comment key="initiate radio call" text="我拜请低语，&#37;rank_name需要来自林地深处的协助" />
+	<comment key="initiate radio call" text="我已焚烧第三层枝叶，&#37;rank_name需要林地的机遇" />
+	<comment key="commander radio response" text="如果这是林地的意愿..." />
+	<comment key="commander radio response" text="*无线电中裹杂了越发清晰的风声*" />
+	<comment key="commander radio response" text="*无线电杂音中混杂了模糊的声音*" />
+	<comment key="commander radio response" text="*无线电杂音中混杂了扭曲的动静*" />
+	<comment key="commander radio response" text="*无线电杂音充斥血肉脉动的声音*" />
+	<comment key="commander radio full" text="*清晰的无线电内部电流声*"/>  
+	<comment key="commander radio full" text="*无线电充斥巨大的嗡嗡声*"/>  
+	<comment key="no radio equipment" text="哦...我没能带上无线电" />
+	<comment key="no radio equipment" text="哦...这太丢人了..." />
+	<comment key="no radio equipment" text="这是林地的意愿...？" />
+	<comment key="no radio equipment" text="哦...我没有无线电" />
+	<comment key="no radio equipment" text="...我没带" />
+	<comment key="no radio equipment" text="...忘了" />
+
+  <comment key="squad chat, not in squad" text="我不在其他传颂者队伍内..." />
+
+  <comment key="Hey, wait up" text="技师！我有所请求！" />
+  <comment key="Hey, wait up" text="技师，悼歌尚未响起！" />
+  <comment key="Hey, wait up" text="技师，请让机械休寐！" />
+  <comment key="Hey, wait up" text="技师！" />
+	
+  <comment key="Quickly!" text="林地为我等见证者！" />
+  <comment key="Quickly!" text="林地在鼓舞我等！" />
+  <comment key="Quickly!" text="青苔与林地邀约我等相舞！" />
+  <comment key="Quickly!" text="我等刻面将记载林地不朽吞噬！" />
+  <comment key="Quickly!" text="如同低语之树的意愿！" />
+  <comment key="Quickly!" text="梦境将冲破腐败！" />
+  <comment key="Quickly!" text="荆棘之硫不再威胁我等，为了林地！" />
+  <comment key="Quickly!" text="青苔之音涌现如茵，追随祷文！" />
+  <comment key="Quickly!" text="绿茵已织至青苔，如同低语之树的意愿！" />
+  <comment key="Quickly!" text="为异教徒带去悼文！" />
+  <comment key="Quickly!" text="诞颂尔等祷文，以林地之音！" />
+  
+  <comment key="Buzz off" text="你在做什么？" />
+  <comment key="Buzz off" text="停止你的无礼行为" />
+  <comment key="Buzz off" text="这可不是林地的礼仪" />
+  <comment key="Buzz off" text="做好你的职务！传颂员" />
+  <comment key="Buzz off" text="？" />
+  
+  <comment key="Step out, kid" text="抱歉，技师！" />
+  <comment key="Step out, kid" text="抱歉技师，林地给予了我重任！" />
+  <comment key="Step out, kid" text="你好像不是个技师" />
+  <comment key="Step out, kid" text="嘿，你不是技师，下去" />
+  <comment key="Step out, kid" text="而正如&#37;rank_name所言，此物有更伟大的前途！" />
+  
+  <comment key="hostile vehicle takeover" text="！？" />
+  <comment key="hostile vehicle takeover" text="？" />
+  <comment key="hostile vehicle takeover" text="低语不曾说明此事！" />
+  <comment key="hostile vehicle takeover" text="异教徒！？" />
+  <comment key="hostile vehicle takeover" text="不要！" />
+  <comment key="hostile vehicle takeover" text="异教徒把我抓住了！" />
+  <comment key="hostile vehicle takeover" text="荆棘把我囊括住了！" />
+	
+  <comment key="Can't respawn - the last base is under attack" text="无法部署 - 敌人正在清剿林地的影响" />
+  <comment key="Can't respawn - spawning is locked" text="无法部署 - 正在锁定" />
+
+  <comment key="Hmm.. not enough room here" text="嗯...这里没地方" />
+
+  <comment key="I'm outta here" text="*传颂祷文*" />
+  <comment key="I'm outta here" text="...青苔引导前路" />
+  
+  <comment key="Good job, soldiers" text="异教徒被击溃了！" />
+  <comment key="Good job, soldiers" text="这里空无一物，林地终将生根发芽！" />
+  <comment key="Good job, soldiers" text="待到归来之时，树荫裹挟尔等入梦！" />
+  <comment key="Good job, soldiers" text="吟诵祷词！" />
+  <comment key="Good job, soldiers" text="前行" />
+  <comment key="Good job, soldiers" text="如同林地之低语" />
+  <comment key="Good job, soldiers" text="如同低语之树的意愿" />
+  <comment key="Good job, soldiers" text="正如林地之愿" />
+  <comment key="Good job, soldiers" text="低语之树的祝福笼罩着我们！" />
+  <comment key="Good job, soldiers" text="等待低语之树的传谓..." />
+  <comment key="Good job, soldiers" text="" />
+  <comment key="Good job, soldiers" text="荆棘之硫已经褪去！" />
+
+  <comment key="Open fire" text="异教徒！" />
+  <comment key="Open fire" text="向他们播颂福音！" />
+  <comment key="Open fire" text="休想威胁林地！" />
+  <comment key="Open fire" text="变为林地的养料吧！" />
+  <comment key="Open fire" text="在这里！" />
+  <comment key="Open fire" text="他没有接受赐福！" />
+  <comment key="Open fire" text="他不在梦境里！" />
+
+  <comment key="Lone leader, open fire" text="孤独笼罩着他！" />
+  <comment key="Lone leader, open fire" text="将他送去腐败！" />
+  <comment key="Lone leader, open fire" text="异教徒！" />
+  <comment key="Lone leader, open fire" text="在这里！" />
+  <comment key="Lone leader, open fire" text="变为林地的养料吧！" />
+
+  <comment key="fire opened, weapon tag = sniper" text="狙击！" />
+  <comment key="fire opened, weapon tag = sniper" text="林地庇护我！是狙击！" />
+  <comment key="fire opened, weapon tag = sniper" text="异教徒的狙击！" />
+  <comment key="fire opened, weapon tag = rf" text="狙击！" />
+  <comment key="fire opened, weapon tag = rf" text="林地庇护我！是狙击！" />
+  <comment key="fire opened, weapon tag = rf" text="异教徒的狙击！" />
+  <comment key="fire opened, weapon tag = rf" text="寻找庇佑！" />
+  <comment key="fire opened, weapon tag = nrf" text="林地庇护我等！" />
+  <comment key="fire opened, weapon tag = nrf" text="寻找庇佑！" />
+  <comment key="fire opened, weapon tag = mg" text="寻找庇佑！！！" />
+  <comment key="fire opened, weapon tag = mg" text="异教徒奏响了收割的镇魂曲！" />
+  <comment key="fire opened, weapon tag = mg" text="收割之曲！" />
+  <comment key="fire opened, weapon tag = mg" text="庇佑！林地请庇佑我！" />
+  <comment key="fire opened, weapon tag = mg" text="异教的收割之曲在飘荡！" />
+  <comment key="fire opened, weapon tag = mg" text="小心！" />
+  <comment key="fire opened, weapon tag = mg" text="我操！" />
+  <comment key="fire opened, weapon tag = mg" text="！" />
+  <comment key="fire opened, weapon tag = cqb" text="青苔在警告我们！" />
+  <comment key="fire opened, weapon tag = cqb" text="异教徒想要靠近我们！" />
+  <comment key="fire opened, weapon tag = cqb" text="异教徒！放弃吧！" />
+  <comment key="fire opened, weapon tag = cqb" text="赐予敌人腐败！" />
+  <comment key="fire opened, weapon tag = cqb" text="荆棘在涌来！" />
+  <comment key="fire opened, weapon tag = cqb" text="青苔的敬告正在显现！" />
+  <comment key="fire opened, weapon tag = cqb" text="消灭那个逼近的异教徒！" />
+  <comment key="fire opened, weapon tag = sg" text="荆棘之浪！" />
+  <comment key="fire opened, weapon tag = sg" text="荆棘之浪，寻找庇佑！" />
+  <comment key="fire opened, weapon tag = sg" text="林地庇护我等！" />
+  <comment key="fire opened, weapon tag = smg" text="消灭那个逼近的异教徒！" />
+  <comment key="fire opened, weapon tag = smg" text="逼近的异教徒！" />
+  <comment key="fire opened, weapon tag = smg" text="荆棘在涌来！" />
+  <comment key="fire opened, weapon tag = smg" text="荆棘之潮正在涌来！" />
+  <comment key="fire opened, weapon tag = at" text="不，他会威胁林地！" />
+  <comment key="fire opened, weapon tag = at" text="林地不允许他的存在！" />
+  <comment key="fire opened, weapon tag = at" text="他会威胁林地的！" />
+  <comment key="fire opened, weapon tag = at" text="消灭那个异教徒！" />
+
+  <comment key="grenade alert, grenade tag = grenade" text="那不是光！" />
+  <comment key="grenade alert, grenade tag = grenade" text="是异教徒的手雷！" />
+  <comment key="grenade alert, grenade tag = grenade" text="异教手雷！" />
+  
+  <comment key="grenade alert, grenade tag = flashbang" text="那是虚假的光！" />
+  <comment key="grenade alert, grenade tag = flashbang" text="那不是光！" />
+  
+  <comment key="grenade alert, grenade tag = rocket" text="硫化之反应！" />
+  <comment key="grenade alert, grenade tag = rocket" text="硫化之反应迫近！" />
+  <comment key="grenade alert, grenade tag = rocket" text="躲开，硫化之反应！" />
+
+  <comment key="enemy not seen, area alerted" text="寻找庇佑..." />
+  <comment key="enemy not seen, area alerted" text="...如果这是低语之树的意愿" />
+  <comment key="enemy not seen, area alerted" text="...荆棘丛生" />
+  <comment key="enemy not seen, area alerted" text="...异教徒" />
+  <comment key="enemy not seen, area alerted" text="...林地...请告诉我..." />
+  <comment key="enemy not seen, area alerted" text="...他不在梦境里" />
+  <comment key="enemy not seen, area alerted" text="...他没有接受赐福" />
+
+  <comment key="Lone leader, enemy not seen, area alerted" text="林地在观察着...林地不会放弃我的..." />
+  <comment key="Lone leader, enemy not seen, area alerted" text="我能听到低语..." />
+  
+  <comment key="leader, enemy not seen, taking suppressed fire" text="寻找庇佑！" />
+  <comment key="leader, enemy not seen, taking suppressed fire" text="他没有接受赐福？！寻找庇佑！" />
+  <comment key="leader, enemy not seen, taking suppressed fire" text="他不在梦境里！寻找庇佑！" />
+  <comment key="leader, enemy not seen, taking suppressed fire" text="林地，请庇护我！" />
+
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="寻找庇佑！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="他没有接受赐福！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="他不在梦境里！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="树荫裹挟尔等入梦！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="林地终将生根发芽！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="祝福笼罩着我们！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="异教徒！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="异教徒过来了！" />
+  <comment key="Lone leader, enemy not seen, taking suppressed fire" text="？！" />
+
+  <comment key="enemy seen" text="他不在梦境里！" />
+  <comment key="enemy seen" text="他没有接受赐福！" />
+  <comment key="enemy seen" text="在这里" />
+  <comment key="enemy seen" text="变为林地的养料吧！" />
+  <comment key="enemy seen" text="休想威胁林地！" />
+  <comment key="enemy seen" text="我发现了异教徒！" />
+  <comment key="enemy seen" text="？！" />
+  <comment key="enemy seen" text="休想威胁林地！" />
+  <comment key="enemy seen" text="异教徒靠近，向他们播颂福音！" />
+
+  <comment key="enemy seen, vehicle tag = any_tank" text="低语之树的敌人！" />
+  <comment key="enemy seen, vehicle tag = any_tank" text="荆棘之主！" />
+  <comment key="enemy seen, vehicle tag = any_tank" text="林地，请赐予我庇护！" />
+  
+  <comment key="enemy seen, vehicle tag = apc" text="异教徒的步战车！" />
+  <comment key="enemy seen, vehicle tag = apc" text="林地，请赐予我庇护！" />
+  <comment key="enemy seen, vehicle tag = apc" text="低语之树的敌人！" />
+  
+  <comment key="enemy seen, vehicle tag = truck" text="发现卡车！" />
+  <comment key="enemy seen, vehicle tag = truck" text="是卡车！" />
+  <comment key="enemy seen, vehicle tag = truck" text="这不是工团的卡车！" />
+  <comment key="enemy seen, vehicle tag = truck" text="前方发现敌军运输车！" />
+  <comment key="enemy seen, vehicle tag = truck" text="发现运输卡车！" />
+  <comment key="enemy seen, vehicle tag = truck" text="敌军运输卡车！" />          
+  
+  <comment key="enemy not seen, taking suppressed fire" text="？" />
+  <comment key="enemy not seen, taking suppressed fire" text="是风声还是什么？" />
+  <comment key="enemy not seen, taking suppressed fire" text="！" />
+  <comment key="enemy not seen, taking suppressed fire" text="未知火力！" />
+  <comment key="enemy not seen, taking suppressed fire" text="消音武器！" />
+  
+  <comment key="Waiting for reinforcements" text="我得...歇会儿"/>
+  <comment key="Waiting for reinforcements" text="等会他们" />
+  <comment key="Waiting for reinforcements" text="同志？" />
+  <comment key="Waiting for reinforcements" text="后面人呐？" />
+  <comment key="Waiting for reinforcements" text="同志们去哪儿了？" />
+
+  <comment key="All quiet here" text="好安静...正如林地一般" />
+  <comment key="All quiet here" text="*不知道在叨咕些什么*" />
+  <comment key="All quiet here" text="*看云朵*" />
+  <comment key="All quiet here" text="*听不清的祷文*" />
+  <comment key="All quiet here" text="..." />
+
+  <comment key="Yes sir" text="如果这是低语之树的意愿" />
+  <comment key="Yes sir" text="正如祷文所言" />
+  <comment key="Yes sir" text="是的，当然" />
+
+  <comment key="Uh, I can't drive this thing" text="实话实说...我更擅长祷告一些" />
+  <comment key="Uh, I can't drive this thing" text="...这肯定不是低语之树的意愿" />
+  <comment key="Uh, I can't drive this thing" text="呃..." />
+  <comment key="Uh, I can't drive this thing" text="我更想步行前往青苔所指引的方向..." />
+  <comment key="Uh, I can't drive this thing" text="Jackol设计的真是离谱，就不能让AI绕过这些东西？..." />
+
+  <comment key="Waiting for squad" text="啊，什么？" />
+  <comment key="Waiting for squad" text="停下来了，同志" />
+  <comment key="Waiting for squad" text="什么事，同志" />
+  <comment key="Waiting for squad" text="什么？" />
+  <comment key="Waiting for squad" text="？" />
+  <comment key="Shield up" text="竖盾" />
+  <comment key="Shield up" text="防御" />
+  <comment key="Shield up" text="来打我啊你们这些杂种！" />
+  <comment key="Shield up" text="" />
+  <comment key="overencumbered" text="该死的背包！" />
+  <comment key="overencumbered" text="我...我他妈不能背着这么重的东西射击" />
+  <comment key="overencumbered" text="我是不是脑子坏了，我最好丢一些东西" />
+  <comment key="overencumbered" text="我要是现在遇敌绝对要出事" />
+  <comment key="Where to, chief?" text="同志，有什么想去的地儿么？" />
+  <comment key="Where to, chief?" text="同志，有什么目的地吗？" />
+  <comment key="Where to, chief?" text="您说了算" />
+  <comment key="Where to, chief?" text="等待命令" />
+  <comment key="celebrating" text="同志！我们赢了！" />
+  <comment key="celebrating" text="我没死！" />
+  <comment key="celebrating" text="我...我活下来了！" />
+  <comment key="celebrating" text="我们胜利了！" />
+  <comment key="celebrating" text="他们被我们赶出去了！" />
+  <comment key="celebrating" text="我们把他们驱逐出去了！" />
+  <comment key="celebrating" text="把他们全部绞死！" />
+  <comment key="celebrating" text="不留俘虏！" />
+  <comment key="celebrating" text="终于！" />
+  <comment key="celebrating" text="我得抓紧写写我的家书了" />
+  <comment key="celebrating" text="天哪，真是漫长的战斗" />
+  <comment key="celebrating" text="我们胜利了，我们胜利了！" />
+  <comment key="celebrating" text="工团击溃了他们！" />
+  <comment key="celebrating" text="*攥着照片颤抖*" />
+
+  <comment key="about to drive over a friendly" text="同志，我差点撞到你！" />
+  <comment key="about to drive over a friendly" text="让开点，同志！" />
+  <comment key="about to drive over a friendly" text="小心点，同志！" />
+  <comment key="about to drive over a friendly" text="嘿！" />
+  <comment key="about to drive over a friendly" text="同志！？你不要命啦！" />
+  
+  <comment key="this is as close as i can get" text="我走得够近了" />
+  <comment key="this is as close as i can get" text="不能再靠近了" />
+  
+  <comment key="enemy vehicle spotted, near base" text="在&#37;base_name附近发现属于&#37;enemy_name的&#37;vehicle_name" />
+  <comment key="enemy vehicle spotted, not near base" text="发现来自&#37;enemy_name的&#37;vehicle_name" />
+  <comment key="comms have been restored" text="通讯已紧急修复" />
+  <comment key="enemy comms have been restored" text="&#37;enemy_name的通讯已完全恢复" />
+  <comment key="comms have been destroyed" text="我方通讯设备被摧毁！" />
+  <comment key="enemy comms have been destroyed, by us" text="干得漂亮，&#37;enemy_name的通讯现在已经被破坏了！" />
+
+  <dialogue key="wander dialogue 2 men">
+    <comment text="老天..." />
+    <comment text="怎么了？" />
+    <comment text="我当时应该听队长的话的" />
+    <comment text="你那个去前线的老队长？" />
+    <comment text="这样他就不会把我一个人丢在这里了" />
+    <comment text="...我认为他是为了保护你" />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="这地方有点熟悉..." />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="我忘了吃饭了..." />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="我感觉我们的的武器比其他阵营的东西能干多了！" />
+    <comment text="我也这么觉得，坚实可靠！" />
+    <comment text="哈哈，毕竟资本的东西都是华而不实的" />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="什么时候才能把那些资本家挂起来..." />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="要是知道我会走这么远的路，我宁愿继续在工厂里待到老死！" />
+  </dialogue>
+  <dialogue key="defense dialogue 2 men">
+    <comment text="你快升官了吗？" />
+    <comment text="没，但是我认为快了" />
+  </dialogue>
+  <dialogue key="wander dialogue 2 men">
+    <comment text="感觉工团现在内部有点乱啊" />
+    <comment text="为什么这么说？" />
+    <comment text="因为我们似乎对资本的断定有一些太过激...似乎很多人都不想加入我们" />
+    <comment text="这是他们的问题！他们是资本家！" />
+    <comment text="但是连政委也觉得这里面有些不对劲..." />
+    <comment text="...这可太可怕了" />
+    <comment text="搞得我现在脑子都转不动了！" />
+    <comment text="我们最好还是终止这个话题吧" />
+    <comment text="是啊，你说的对，这种话题太危险了" />
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men">
+    <comment text="我感觉我的大腿好像卡住了" />
+    <comment text="他们为什么不能把载具设计的更工程学一点？" />
+    <comment text="真她妈是个好问题啊" />
+  </dialogue>
+<dialogue key="vehicle dialogue 2 men">
+    <comment text="说实话...我不是很喜欢某些军官副手的那把霰弹枪" />
+    <comment text="那个不是很好用吗" />
+    <comment text="不完全是，主要是小左轮比它稳定的多，而且换弹也更方便" />
+    <comment text="这倒是" />
+    <comment text="而且还可以打很多发，如果霰弹枪打歪了..." />
+    <comment text="那就死定了！" />
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+    <comment text="这种摇晃的感觉让我想起来我以前在工厂上班的日子" />
+    <comment text="摇晃和...工厂，你是什么工厂？" />
+    <comment text="筛选厂，而我掉进了那个类似淘沙的东西里面" />
+  </dialogue>
+	
+  <dialogue key="vehicle dialogue 2 men">
+    <comment text="我觉得在这里不安全" />
+    <comment text="为什么？" />
+    <comment text="看看车轮" />
+    <comment text="有什么问题吗？" />
+    <comment text="他们根本没有连在车轴上！" />
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men">
+    <comment text="我肯定会喜欢听收音机的" />
+    <comment text="确实，但是收音机你带了没" />
+    <comment text="没，我只带了电台" />
+    <comment text="？我怎么不记得你有过这东西" />
+    <comment text="有人被炸成了两半，我从他那边拿到的" />
+  </dialogue>
+
+  <dialogue key="vehicle dialogue 2 men tag=campfire">
+    <comment text="草，哪儿去了" />
+    <comment text="怎么了" />
+    <comment text="我把我家人的相片搞丢了" />
+    <comment text="只是个相片而已" />
+    <comment text="你根本不懂！" />
+  </dialogue>
+  
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+    <comment text="不知道这个坦克能不能用到战争结束" />
+    <comment text="感觉最多这场战役" />
+    <comment text="打个赌吧！" />
+    <comment text="那你肯定输了，同志！" />
+  </dialogue>
+  
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+    <comment text="坦克...没想到居然有一天我还能摸到它" />
+    <comment text="怎么？" />
+    <comment text="我曾经是个坦克技师，不过我只是负责维修履带的" />
+    <comment text="那你肯定很擅长驾驶这个载具，同志！" />
+    <comment text="这倒没有" />
+  </dialogue>
+  
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+    <comment text="我们给这辆坦克起个什么名好呢？" />
+    <comment text="同志？" />
+    <comment text="好吧，我们得用它一段时间所以..." />
+    <comment text="我是指就叫他同志" />
+  </dialogue>
+
+  <dialogue key="vehicle dialogue 2 men tag=any_tank">
+    <comment text="我希望路上安全一些" />
+    <comment text="我们可是坦克！" />
+    <comment text="说是这么说..." />
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+    <comment text="天哪，我有点晕车" />
+    <comment text="天哪，你他妈...别吐在车上！" />
+  </dialogue>
+  <dialogue key="vehicle dialogue 2 men tag=truck">
+    <comment text="你还记得有部电影里的卡车司机在最后逆转了战局吗？" />
+    <comment text="不记得" />
+    <comment text="耶，我也不记得。反正我们要死了。" />
+  </dialogue>
+  <dialogue key="defense dialogue 2 men">
+    <comment text="要是联邦一开始就不压迫工人就好了..." />
+    <comment text="是啊...那样说不定我还能继续当个工程师" />
+    <comment text="你战前是个工程师？" />
+    <comment text="是啊" />
+    <comment text="你怎么跑来当兵了" />
+    <comment text="他妈的，工地干一半被炸了，我也没办法" />
+    <comment text="被联邦？" />
+    <comment text="是邪教" />
+    <comment text="啊...他妈的，那帮疯子科学家" />
+  </dialogue>
+  <dialogue key="defense dialogue 2 men">
+    <comment text="我昨晚做了一个奇怪的噩梦" />
+    <comment text="做了什么梦？" />
+    <comment text="到处都是1和0" />
+    <comment text="有什么问题吗？" />
+    <comment text="我突然看见一个2！" />
+    <comment text="啊啊，至少不是null" />
+    <comment text="或者Ogre报错" />
+    <comment text="Execution！" />
+    <comment text="vector向量报错！" />
+    <comment text="这太吓人了！" />
+  </dialogue>
+
+  <dialogue key="defense dialogue 2 men">
+    <comment text="为什么我们的武器总是打不准？" />
+    <comment text="呃，你有定期上油吗？" />
+    <comment text="你指武器？" />
+    <comment text="有什么问题吗？" />
+    <comment text="没什么，因为我从不知道武器还需要维护" />
+    <comment text="我真纳闷你怎么活到现在的" />
+  </dialogue>
+
+  <dialogue key="defense dialogue 2 men">
+    <comment text="...我们上次讲到哪儿了？" />
+    <comment text="你曾经和政委一起去森林执行任务" />
+    <comment text="啊，是的，晚上的森林里总是有什么在窃窃私语" />
+    <comment text="是敌人吗？" />
+    <comment text="不，附近什么都没有...更像是...环境在低语" />
+    <comment text="那就是他们口中‘会说话的树’吗？" />
+    <comment text="他们？那些崇拜森林的疯子？" />
+    <comment text="没错，那些人的的说法也许是真的" />
+    <comment text="如果你坚持的话，可能政委会找上你的" />
+  </dialogue>
+  
+  <dialogue key="defense dialogue 2 men">
+    <comment text="你有烟吗？" />
+    <comment text="有，但我总是忘带打火机" />
+    <comment text="啊...老天，我烟瘾上来了" />
+    <comment text="你应该找回收员，他那里什么都有" />
+    <comment text="他？他的东西不都是从..." />
+    <comment text="死人堆回收的，没错，但是能用" />
+    <comment text="呃...我还是再忍忍吧" />
+  </dialogue>
+  
+  <dialogue key="defense dialogue 2 men">
+    <comment text="我喜欢这件制服，看起来很帅" />
+    <comment text="我也觉得！" />
+    <comment text="我们比联邦他们酷多了" />
+    <comment text="但我感觉军服很难穿" />
+    <comment text="确实，尤其是大腿部分" />
+  </dialogue>
+  
+  <dialogue key="defense dialogue 2 men">
+    <comment text="今天的午饭是营养罐头" />
+    <comment text="呃呃呃，又是那个硬的不行的营养凝胶？" />
+    <comment text="我无所谓，因为我在战场上捡到了一些肉罐头" />
+    <comment text="天哪，你应该把它们交给回收员" />
+    <comment text="但...我很饿哎" />
+    <comment text="你会被标成资本支持者的" />
+    <comment text="我可以分你一罐" />
+    <comment text="之后储藏处见面" />
+  </dialogue>
+  
+  
+  
+  
+	<!-- commander comments -->
+  <comment key="player promotion" text="恭喜你，同志，你刚刚晋升到了&#37;rank_name" />
+  <comment key="player promotion" text="恭喜，同志，你刚刚晋升到了&#37;rank_name" />
+  <comment key="player promotion" text="同志，你刚刚晋升到了&#37;rank_name，感谢你为工团的付出！" />
+  <comment key="we captured a base" text="工团已解放&#37;base_name" />
+  <comment key="we captured a base" text="我们已经解放了&#37;base_name" />
+  <comment key="we captured a base" text="敌人失去了&#37;base_name的控制权" />
+  <comment key="enemy captured a base" text="&#37;base_name被&#37;faction_name占据了" />
+  <comment key="enemy captured a base" text="&#37;faction_name取得了&#37;base_name的控制权" />
+  <comment key="enemy captured a base" text="&#37;faction_name击退了我们在&#37;base_name的部队" />
+  <comment key="enemy captured a base" text="&#37;base_name被&#37;faction_name重新控制" />
+  <comment key="neutral captured a base" text="呃？暴民控制了&#37;base_name？夺回来" />
+  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，从&#37;direction向&#37;base_name进攻" />
+  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，目标为&#37;base_name" />
+  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，请查看终端" />
+  <comment key="we have lost our last base" text="我们的最后一个据点也被他们占领了！我们失去了在这片区域中最后的武装力量！" />
+  <comment key="enemy has lost their last base" text="此区域&#37;faction_name的最后部队已经投降！" />
+  <comment key="enemy has lost their last base" text="&#37;faction_name失去了他们在此区域的最后有生力量！" />
+  <comment key="our assault ran out of time" text="我们没有时间攻击了--我们的人力已经用光了，我们输了！" />
+  <comment key="enemy assault ran out of time" text="&#37;faction_name耗光了他们的人力！" />
+  <comment key="we won by map conquer" text="为了工团！敌人失去了所有此区域的据点，我们胜利了！" />
+  <comment key="we won by map conquer" text="为了工团！我们夺得了这片土地！" />
+  <comment key="we won by defense timer" text="为了工团！我们解放了这个区块！" />
+  <comment key="our base is under attack" text="&#37;base_name正在被攻击！" />
+  <comment key="we are attacking a base" text="我们的部队正在攻击&#37;base_name" />
+  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近发生冲突，请附近部队支援" />
+  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近需要支援，请查看终端" />
+  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近发生交火，请附近部队支援" />
+  <comment key="defense timer started" text="据前线督察队估计，&#37;faction_name离守住全部基地还剩&#37;time_left秒！" />
+  <comment key="defense timer to go" text="前线督察队估计距离战斗结束还差&#37;time_left秒！" />
+
+  <!-- adventure mode -->
+  <comment key="map start with 1 base, part 1" text="这里是前线督察队，全体注意消息" />
+  <comment key="map start with 1 base, part 1" text="这里是前线督察队，工团单位注意" />
+  <comment key="map start with 1 base, part 1" text="这里是前线督察队，所有工团单位注意" />
+  <comment key="map start with 1 base, part 2" text="你们被派遣至&#37;map_name" />
+  <comment key="map start with 1 base, part 2" text="&#37;map_name现在正在敌人的控制之下" />
+  <comment key="map start with 1 base, part 2" text="你们需要尽全力夺得&#37;map_name" />
+  <comment key="map start with 1 base, part 2" text="&#37;map_name作为一个战略要冲，是我们必须占领的重要区块" />
+  <comment key="map start with 1 base, part 3" text="我们的先锋部队于&#37;base_name突入区块，敌人不可能意识不到这一点" />
+  <comment key="map start with 1 base, part 3" text="工团突击小组于&#37;base_name突入区块，敌人估计很快就会反应过来" />
+  <comment key="map start with 1 base, part 3" text="我们的潜行部队悄无声息的清理了&#37;base_name的敌人，但敌人在定期的无线电对话中很快便会发现端倪" />
+  <comment key="map start with 1 base, part 3" text="惩戒营已经冲开了敌人&#37;base_name的防线，他们伤亡惨重" />
+  <comment key="map start with 1 base, part 3" text="敌人在&#37;base_name似乎没有部署部队，我们的部队已经快速占领了此据点作为跳板" />
+  <comment key="map start with 1 base, capture" text="敌人于&#37;map_name的兵力随时会调动起来，所有人立刻行动，打乱敌人部署，目标是占领此区域" />
+  <comment key="map start with 1 base, capture" text="&#37;map_name的敌人已经被惊动，所有人立刻行动，尽快突破敌军防线，目标是占领此区域" />
+  <comment key="map start with 1 base, capture" text="&#37;map_name的敌军正在伺机而动，所有部队主动出击，在敌人组织起防线之前扩大战果。" />
+  <comment key="map start with 1 base, koth" text="全&#37;map_name的兵力都在试图控制&#37;target_base_name，我们也一样，控制目标地点并做好防御" />
+  <comment key="map start with 1 base, koth" text="&#37;map_name的最重要的地方便是&#37;target_base_name，控制目标地点并做好防御" />
+  <comment key="map start with 1 base, koth" text="&#37;map_name的&#37;target_base_name发现了重要情报，控制目标地点并做好防御，不要让敌人占领那里" />
+  <comment key="map start with 1 base, koth" text="&#37;map_name的&#37;target_base_name已经陷落，但介于其内部的重要生产资料，我们不能付出失去它的代价，夺回这里！" />
+  <comment key="side objectives" text="所有班组可以执行突袭任务，对敌人的后方进行干扰和破坏" />
+  <comment key="loot objective" text="敌方的货运卡车随时可能经过此区域，做好准备拦停它！" />
+  <comment key="radio tower or truck objective" text="我们的特遣小组确认此地区存在敌人的主要通讯设备或干扰设备，但我们随后失去了和他们的联系" />
+  <comment key="aa objective" text="敌人在此区域拥有防空设施，摧毁它，不要让他干扰到我们的作战体系" />
+  <comment key="map start, ending" text="为了工团！同志们，我们不会失败！" />
+  <comment key="map start, ending" text="为了工团！同志们，干掉工团的敌人！" />
+  <comment key="map start, ending" text="为了工团！进攻！" />
+  <comment key="map start with more bases, part 1" text="同志，这里是区块前哨观察所，谢天谢地，你们可算到了" />
+  <comment key="map start with more bases, part 2" text="我们已经设法守住了我们的前线，目前有&#37;number_of_bases个据点在我们的控制范围内" />
+  <comment key="map start with completed map" text="这里是区块前哨观察所，欢迎回来&#37;player_name，为了工团" />
+  <comment key="map advance, held by enemy" text="前线小队已经成功突入&#37;map_name，此地正在被&#37;faction_name控制" />
+  <comment key="map advance, held by enemy" text="潜行小组已经成功潜入&#37;map_name，此地正在被&#37;faction_name控制" />
+  <comment key="map advance, held by enemy" text="特遣小组已经成功介入&#37;map_name，此地正在被&#37;faction_name控制" />
+  <comment key="map advance, another enemy present" text="同时&#37;faction_name也在争夺此区块" />
+  <comment key="map advance, new map" text="前线的同志们已经设法建立了基础防线，但仍需额外部队前往支援" />
+  <comment key="map advance, new map" text="敌人的部队已经开始调动，前线的同志们需要立即支援" />
+  <comment key="map advance, been there before" text="我们仍然掌握着&#37;number_of_bases个小区域的主动权" />
+  <comment key="map advance, friendly map" text="&#37;faction_name的部队现在仍有部分在&#37;map_name整备, 那里终于平静些了" />
+
+  <!-- boss maps -->
+
+  <comment key="Final mission I advance, held by enemy, part 1" text="做得好！&#37;faction_name已经被彻底剿灭" />
+  <comment key="Final mission I advance, held by enemy, part 2" text="敌军仅存的高级军官躲藏在山谷内的废弃村庄里" />
+  <comment key="Final mission I advance, held by enemy, part 3" text="现在我们会进入这里并一举摧毁他们" />
+  <comment key="Final mission I advance, held by enemy, part 4" text="你将加入我们缴获的直升机联队并前往目标地点，好了小子们，现在" />
+  <comment key="Final mission I advance, held by enemy, part 5" text="登上直升机！" />
+  <comment key="Final mission I start with 1 base, part 1" text="同志！我们终于联系上你们了！" />
+  <comment key="Final mission I start with 1 base, part 2" text="你的飞机仅仅因机翼受损而坠毁，其他的就没那么幸运了" />
+  <comment key="Final mission I start with 1 base, part 3" text="就看你的了——这里拥有巨大的电磁干扰网络，而且我们的飞机已经调往了其他区域" />
+  <comment key="Final mission I start with 1 base, part 4" text="找到并摧毁分散在这个地区的敌人设备，他们肯定就会失去最后的反抗动力" />
+  <comment key="Final mission I start with 1 base, part 5" text="根据情报，附近废弃农场内有一些遗弃的军事装备" />
+  <comment key="Final mission II advance, held by enemy, part 1" text="做得好！&#37;faction_name已经成功被击退" />
+  <comment key="Final mission II advance, held by enemy, part 2" text="我们已经追踪到&#37;faction_name剩余的兵力驻扎在冰冻峡谷" />
+  <comment key="Final mission II advance, held by enemy, part 3" text="剿灭他们，这样他们将彻底被击溃！" />
+  <comment key="Final mission II advance, held by enemy, part 4" text="增援部队立刻动身前往那里" />
+  <comment key="Final mission II advance, held by enemy, part 5" text="预计会遭遇强烈抵抗和糟糕的天气条件，为了工团！" />
+  <comment key="Final mission II start with 1 base, part 1" text="增援部队已到达，正是时候！" />
+  <comment key="Final mission II start with 1 base, part 2" text="敌人快要冲进基地了，我们刚刚很勉强地守住了这里的战线" />
+  <comment key="Final mission II start with 1 base, part 3" text="刚刚的塌方让我们失去了任何可能的援军，再往前便是他们的通讯干扰区域" />
+  <comment key="Final mission II start with 1 base, part 4" text="我们现在只能前进！" />
+  <comment key="Final mission II start with 1 base, part 5" text="为了工团！" />
+  <comment key="Final mission II, phase 2, part 1" text="做得好！看起来敌方的士气开始低落了" />
+  <comment key="Final mission II, phase 2, part 2" text="他们现在看起来好像在组织防御" />
+  <comment key="Final mission II, phase 2, part 3" text="这是我们前进的好机会，趁现在！" />
+  <comment key="Final mission II, phase 2, part 4" text="防空炮阵地阻止我们进一步增援，摧毁它" />
+  <comment key="Final mission II, phase 2, part 5" text="在堡垒废墟里发现了一个敌方的通讯设备，找到并摧毁它" />
+  <comment key="Final mission II, phase 3, part 1" text="做得好！看起来敌军的残兵已经把自己困笼子里了" />
+  <comment key="Final mission II, phase 3, part 2" text="入口已经被封锁了！" />
+  <comment key="Final mission II, phase 3, part 3" text="摧毁南方的干扰设备，我们的导弹会尽量摧毁那个大门" />
+  <comment key="Final mission II, phase 3, part 4" text="摧毁通讯塔" />
+  <comment key="Final mission II, phase 4, part 1" text="好吧，他们自己把门打开了，那正好" />
+  <comment key="Final mission II, phase 4, part 2" text="为了工团！同志们，冲锋！" />
+
+  <!-- vehicle delivery objective -->
+  <comment key="vehicle delivered" text="&#37;vehicle_name已经送到，干得漂亮！" />
+  <comment key="vehicle objective cancelled, vehicle destroyed" text="敌军&#37;vehicle_name已被我方部队销毁" />
+  <comment key="vehicle objective instruction" text="目标最后确认于&#37;location，敌&#37;faction_name的&#37;vehicle_name，试着拦停它！" />
+  <comment key="resource out of stock" text="&刚刚最后一把#37;resource_name已经用没了" />
+  <comment key="resource added in stock" text="&#37;resource_name到货了" />
+  <comment key="overtime, we are winning" text="坚持下去——看起来敌人的人力快要见底了！" />
+  <comment key="overtime, we are losing" text="这可能是我们最后的机会，我们的部队不多了！" />
+  <!-- item delivery objective; briefcases -->
+  <comment key="item delivered" text="完成目标" />
+  <comment key="item objective instruction" text="" />
+  <comment key="item objective map text" text="" />
+  <comment key="item objective thanks" text="哦，同志，让我们看看这里面有什么" />
+
+  <!-- enemy item delivery objective; weapons -->
+  <comment key="enemy item objective instruction" text="" />
+  <comment key="enemy item objective map text" text="" />
+  <comment key="enemy item objective thanks incomplete" text="还不够，还需要&#37;number_of_items_left件才能解锁" />
+  <comment key="enemy item objective thanks" text="不错，齐了，我们已经开始仿制敌人的这些武器" />
+  <comment key="extraction point available" text="到&#37;map_name地图的传送点已激活" />
+  <comment key="several extraction points available" text="多个可用的传送点已激活" />
+  <comment key="standby for extraction" text="正在转接部队调遣中心" />
+  <!-- teddy bear hunt session, for fun -->
+  <comment key="flag dropped in container 0" text="&#37;player_name掉落了&#37;item_name" />
+  <comment key="flag dropped in container 1" text="&#37;player_name刚刚把一个&#37;item_name带到军械库，得分！" />
+  <comment key="flag dropped in container 2" text="&#37;player_name往背包里放了一个&#37;item_name" />
+  <comment key="flag dropped in container 3" text="&#37;player_name存放了一个&#37;item_name" />
+  <comment key="tutorial end 1" text="做得好士兵，现在你准备好加入战斗了！" />
+  <comment key="tutorial end 2" text="收拾行囊，出发吧！" />
+  
+  <comment key="gift box delivered" text="看看&#37;delivered_item_name里面有什么好东西, &#37;player_name同志！" />
+  <comment key="gift box delivery, reward" text="&#37;player_name，看起来你得到了&#37;item_name1和&#37;item_name2！" />
+
+  <!-- —————————————————————UPDATE———————————————————— -->
+<!-- 1.71 -->
+
+  <comment key="icecream truck exists" text="看，冰淇淋！" />
+
+  <comment key="gps_laptop, targets ok" text="标记目标中。" />
+  <comment key="gps_laptop, targets not ok" text="并未搜寻到任何目标。" />
+
+  <comment key="resource out of stock, default" text="&#37;resource_name 已从军械库下架" />       
+  <comment key="resource out of stock, supply" text="&#37;resource_name 已不可在补给车内购买" />     
+  <comment key="resource added in stock, default" text="&#37;resource_name 现已上架军械库" />
+  <comment key="resource added in stock, supply" text="&#37;resource_name 可以从补给车内购买了" />
+
+  <comment key="no more resources to unlock" text="非常感谢，不过我们不打算研发更多的东西了" />  
+ 
+  <comment key="aircraft coming" text="攻击机进场，&#37;direction点钟方向！" />  
+
+<!-- 1.84 -->
+<comment key="rangefinder binoculars" text="距离目标: &#37;range 米" />
+  <comment key="squad_equipment_kit, equip" text="我可以用这个来给附近的士兵装备护甲！" /> 
+  <comment key="squad_equipment_kit, done" text="护甲发放完毕！" />   
+<!-- 1.91 -->
+  <comment key="Press SPACE to continue!" text="你刚刚为工团牺牲了，揍 &#37;control_jump键 重新部署" />
+  <!-- 1.94 --> 
+ <comment key="Turn back! Mine fields ahead!" text="前有雷区！立即返回！" />
+</character>

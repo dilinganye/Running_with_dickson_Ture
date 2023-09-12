@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 邪教 阵营总物品，日后完善以后会单分AI物品以及玩家物品和掉落物品等 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key="G_w_N21.weapon" />
+		<weapon key="G_w_N47.weapon" />
+		<weapon key="G_w_N57.weapon" />
+		<weapon key="G_w_N90.weapon" />
+		<weapon key="G_w_T81.weapon" />
+		<weapon key="G_w_P7.weapon" />
+
+	<!-- 副手 -->
+		<weapon key="G_w2_thistles.weapon" />
+		<weapon key="G_w2_thorns.weapon" />
+		<weapon key="G_w2_watcher.weapon" />
+
+	<!-- 投掷物 -->
+
+	<!-- 电台支援 -->
+		<call key="paratroopers1b.call" />
+		<call key="paratroopers2b.call" />
+	
+</resources>

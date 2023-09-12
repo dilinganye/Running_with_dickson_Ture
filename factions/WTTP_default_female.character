@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="WTTP_default_chat.character">
+
+	<sound key="death" fileref="die_f1.wav" volume="0.63" />
+	<sound key="death" fileref="die_f2.wav" volume="0.63" />
+	<sound key="death" fileref="die_f3.wav" volume="0.63" />
+	<sound key="death" fileref="die_f4.wav" volume="0.63" />  
+	<sound key="death" fileref="die_f5.wav" volume="0.63" /> 
+
+</character>

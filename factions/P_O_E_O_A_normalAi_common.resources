@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 工团 基础AI总物品，类似劳工和混杂的普通精英 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key="Y_w_hellk_ai.weapon"/>
+		<weapon key="Y_w_hellk_b_ai.weapon"/>
+		<weapon key='Y_w_capsize.weapon'/>
+		<weapon key="Y_w_fillpud.weapon" />
+
+	<!-- 副手 -->
+
+	<!-- 投掷物 -->
+	<!--projectile key="B_w3_teg.projectile" --/>
+	<!-- 护甲 -->
+	<carry_item key="MK_0.carry_item" />
+	<carry_item key="MK_1.carry_item" />
+	<carry_item key="MK_2.carry_item" />
+	<carry_item key="MK_3.carry_item" />
+
+	<!-- 电台支援 -->
+		<call key="paratroopers1b.call" />
+		<call key="paratroopers2b.call" />
+</resources>

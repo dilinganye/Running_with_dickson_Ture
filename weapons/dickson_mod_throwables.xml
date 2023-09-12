@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+	<!--通用-->
+	<projectile file="c4.projectile" />
+   	 <projectile file="rpg-7_rocket.projectile" />  
+	<!--势力手雷-->
+	<projectile file="B_w3_teg.projectile" />
+
+	<!--支援-->
+	<projectile file="artillery_b_shell.projectile" />
+	<projectile file="artillery_b_bigshell.projectile" />
+</projectiles>

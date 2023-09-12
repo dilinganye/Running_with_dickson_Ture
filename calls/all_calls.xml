@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call file="B_all_calls.xml" />
+	<!--注册参考格式:     <call file="zhenhai.call" />       -->
+	
+</calls>

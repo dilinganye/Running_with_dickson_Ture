@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+  <text key="Difficulty:Easy" text="硝烟方起" />
+  <text key="Difficulty:Normal" text="暴乱时代" />
+  <text key="Difficulty:Hard" text="聚变冲突" />
+  <text key="Difficulty:Veteran" text="十二点钟" />
+  <text key="Presets:Custom" text="沙盒时代" />
+  <text key="Help:Easy" text="进入各个小型的局部战场，在较低的战场烈度下获取胜利" />
+  <text key="Help:Normal" text="感受世界观下较为正常但略简易的环境，逐步推进" />
+  <text key="Help:Hard" text="一切都是他应有的样子，试着在战场中存活下来，在血流成河的战场中宣告胜利" />
+  <text key="Help:Veteran" text="保持专注与敬畏之心，战场中只有杀和被杀，你和他们没什么不同，钟声已响" />
+  <text key="Help:Presets:Custom" text="自定义你想要的变数，获取你想要的战场" />
+  <text key="Continue campaign as new" text="开始新的战役" />  
+	<text key="Difficulty" text="可玩性与难度设置" />
+</ui>

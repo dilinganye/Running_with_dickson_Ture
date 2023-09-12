@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 联邦 阵营总物品，日后完善以后会单分AI物品以及玩家物品和掉落物品等 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key='B_w_defend.weapon'/>
+		<weapon key='B_w_advancor.weapon'/>
+		<weapon key='B_w_stifler.weapon' />
+		<weapon key='B_w_staror.weapon' />
+
+	<!-- 会删除的主武器 -->
+		<weapon key='B_w_escortMkII.weapon'/>
+		<weapon key='B_w_SpecialZone_Affirm.weapon'/>
+		<weapon key='B_w_SpecialZone_Balance.weapon'/>
+		<weapon key='B_w_SpecialZone_Decrees.weapon'/>
+		<weapon key='B_w_SpecialZone_Justice.weapon'/>
+
+	<!-- 副手 -->
+		<weapon key='B_w2_crack.weapon'/>
+	<!-- 投掷物 -->
+		<projectile key="B_w3_teg.projectile" />
+
+	<!-- 电台支援 -->
+		<call key="artillery1b.call" />
+		<call key="artillery1b_no_aim.call" />
+		<call key="artillery2b.call" />
+		<call key="artillery3b.call" />
+		<call key="paratroopers1b.call" />
+		<call key="paratroopers2b.call" />
+
+	<!-- 测试&特殊兵种支援 -->
+		<call key="paratroopers_spz_radio.call" />
+		<call key="paratroopers_spz_huge_reinforce.call" />
+		<call key="paratroopers_test.call" />
+	
+	<!-- 测试护甲-Will del at last -->
+		<carry_item key="B_M_spz_armor_sentry.carry_item"/>
+		<carry_item key="B_M_spz_armor_shooter.carry_item"/>
+
+	<!-- 测试&暂不启用支援 
+
+	-->
+</resources>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is 一轮速射炮-->
+<call name="校准射, 速射炮一轮." key="artillery1b.call"
+      initiation_comment1="校准射"
+      initiation_comment2="速射炮一轮"
+      acknowledge_comment="火炮中心收到, 已划分支援属火力, 校准弹已发射."
+      acknowledge_time="1.0"
+      launch_comment="速射炮, 一轮, 校射, 已发射."
+	  notify_metagame="1">
+     
+<!-- 校准1-->
+    <round instances="3"
+           instance_class="grenade"
+           instance_key="artillery_shell.projectile" 
+           instance_spread="20 20 20" 
+           common_spread="4 0 4" 
+           launch_time="1"
+           spawn_time="3">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+<!-- 校准2-->
+    <round instances="3"
+           instance_class="grenade"
+           instance_key="artillery_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 0 2" 
+           launch_time="5.0"
+           spawn_time="7.0">
+     <sound class="launch" fileref="artillery_barrage_1.wav" volume="1.0" />
+     <sound class="launch" fileref="artillery_barrage_2.wav" volume="1.0" />      
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+
+<!-- 开始射击	0-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 0 2" 
+           launch_time="6.6"
+           spawn_time="8.6">
+     <sound class="launch" fileref="ac130_105mm.wav" volume="1.0" /> 
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.5-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 0 2" 
+           launch_time="7.59"
+           spawn_time="9.59">
+     <sound class="launch" fileref="ac130_105mm.wav" volume="1.0" /> 
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.4-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 0 2" 
+           launch_time="8.3"
+           spawn_time="10.3">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.35-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 8 2" 
+           launch_time="8.9"
+           spawn_time="10.9">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.3-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 0 2" 
+           launch_time="9.4"
+           spawn_time="11.4">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.25-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 8 2" 
+           launch_time="9.85"
+           spawn_time="11.85">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.25-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 0 2" 
+           launch_time="10.25"
+           spawn_time="12.25">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 9 2" 
+           launch_time="10.65"
+           spawn_time="12.65">
+     <sound class="launch" fileref="ac130_40mm.wav" volume="1.0" />
+     <sound class="launch" fileref="ac130_25mm.wav" volume="1.5" />    
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 0 2" 
+           launch_time="11"
+           spawn_time="13">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="8 8 8" 
+           common_spread="2 5 2" 
+           launch_time="11.34"
+           spawn_time="13.34">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 7 2" 
+           launch_time="11.66"
+           spawn_time="13.66">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 10 2" 
+           launch_time="11.95"
+           spawn_time="13.95">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 0 2" 
+           launch_time="12.265"
+           spawn_time="14.265">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 5 2" 
+           launch_time="12.54"
+           spawn_time="14.54">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 8 2" 
+           launch_time="12.81"
+           spawn_time="14.81">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+<!-- 0.2-->
+    <round instances="1"
+           instance_class="grenade"
+           instance_key="artillery_b_shell.projectile" 
+           instance_spread="9 1 9" 
+           common_spread="2 0 2" 
+           launch_time="13.01"
+           spawn_time="15.01">
+	   <sound class="spawn" fileref="woosh1.wav" volume="0.2" />
+    </round>
+    <hud_icon filename="hud_artillery1b.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="600.0" />
+
+</call>

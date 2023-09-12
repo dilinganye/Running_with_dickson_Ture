@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="bullet" name="Y_w_fusion_bullet" slot="1" pulldown_in_air="4">
+    <result class="blast" radius="2.0" damage="1.0" push="1.0" decal="1" />
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+    <sound class="result" key="terrain" fileref="ricochet1.wav" />
+    <sound class="result" key="terrain" fileref="ricochet2.wav" />
+    <sound class="result" key="terrain" fileref="ricochet3.wav" />
+    <sound class="result" key="terrain" fileref="ricochet4.wav" />
+    
+    <sound class="result" key="vehicle" copy="terrain" />
+
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_01.wav" pitch_variety="0.3" volume="0.5" />
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_02.wav" pitch_variety="0.3" volume="0.5" />
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_03.wav" pitch_variety="0.3" volume="0.5" />
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_04.wav" pitch_variety="0.3" volume="0.5" />
+    <sound class="result" key="vehicle" tag="metal_thin" file="metal_thin_05.wav" pitch_variety="0.3" volume="0.5" />  
+    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="0.6" />    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.6" />
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="0.6" />    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.8" />    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_06.wav" pitch_variety="0.3" volume="0.5" />    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.5" />    
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_08.wav" pitch_variety="0.3" volume="0.7" />
+    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_08.wav" pitch_variety="0.3" volume="0.8" />
+
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_01.wav" pitch_variety="0.3" volume="0.5" />
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_02.wav" pitch_variety="0.3" volume="0.5" /> 
+    <sound class="result" key="vehicle" tag="metal_heavy" file="metal_heavy_03.wav" pitch_variety="0.3" volume="0.5" />       
+    
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_01.wav" pitch_variety="0.3" volume="0.8" />  
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_02.wav" pitch_variety="0.3" volume="0.8" /> 
+    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_03.wav" pitch_variety="0.3" volume="0.4" /> 
+    
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="0.6" />  
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="0.5" />    
+    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_02.wav" pitch_variety="0.4" volume="0.8" />              
+
+    <sound class="result" key="static_object" copy="terrain" />
+    
+    <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="BigBurst" size="4.0" use_surface_color="1" />
+    <effect class="result" key="terrain" ref="Smoke1_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="terrain" ref="Smoke3_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="terrain" ref="Smoke2_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="terrain" ref="Smoke" size="4.0" post_processing="1" />
+    <effect class="result" key="terrain" ref="Godray" size="6.0" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" key="terrain" ref="woosh" post_processing="0" shadow="0" />   
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="7.5" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="9.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="vehicle" ref="BigBurst" size="4.0" use_surface_color="1" />
+    <effect class="result" key="vehicle" ref="Smoke1_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="vehicle" ref="Smoke3_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="vehicle" ref="Smoke2_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="vehicle" ref="Smoke" size="4.0" post_processing="1" />
+    <effect class="result" key="vehicle" ref="woosh" size="4.0" post_processing="0" shadow="0" />  
+    <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
+    <effect class="result" key="static_object" ref="BigBurst" size="4.0" use_surface_color="1" />
+    <effect class="result" key="static_object" ref="Smoke1_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="static_object" ref="Smoke3_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="static_object" ref="Smoke2_bb" size="4.0" post_processing="1" />
+    <effect class="result" key="static_object" ref="Smoke" size="4.0" post_processing="1" />
+    <effect class="result" key="static_object" ref="Godray" size="6.0" lighting="0" />
+    <effect class="result" key="static_object" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" key="static_object" ref="woosh" post_processing="0" shadow="0" />   
+	
+    <effect class="result" key="other" copy="static_object" />
+    <effect class="result" key="character" copy="static_object" />
+    <trail probability="1.0" key="yellow_big" />
+
+</projectile>

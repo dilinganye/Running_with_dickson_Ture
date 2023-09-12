@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<!-- Faction_w.xml  -->
+	<weapon file="B_w.xml" />
+	<weapon file="G_w.xml" />
+	<weapon file="Y_w.xml" />
+
+<!-- Test weapons  -->
+	<!-- weapon file="cs_1.weapon"/  -->	
+   	 <weapon file="rpg-7.weapon" />  
+</weapons>

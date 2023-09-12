@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--此处用于注册 联邦 基础AI总物品，类似小兵和混杂的普通精英 -->
+<!--weapon key='Some_Weapon_s_Name.weapon'/-->
+	<!-- 主武器 -->
+		<weapon key='B_w_defend.weapon'/>
+		<weapon key='B_w_advancor.weapon'/>
+		<weapon key="B_w_stifler.weapon" />
+
+	<!-- 副手 -->
+
+	<!-- 投掷物 -->
+	<projectile key="B_w3_teg.projectile" />
+	<!-- 护甲 -->
+	<carry_item key="MK_0.carry_item" />
+	<carry_item key="MK_1.carry_item" />
+	<carry_item key="MK_2.carry_item" />
+	<carry_item key="MK_3.carry_item" />
+
+	<!-- 电台支援 -->
+		<call key="artillery1b.call" />
+		<call key="paratroopers1b.call" />
+</resources>

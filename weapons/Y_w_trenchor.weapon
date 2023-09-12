@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine_smg.weapon" key="Y_w_trenchor.weapon">
+    <tag name="smg" />
+	<tag name="cqb" />
+    <specification 
+	retrigger_time="0.1" 
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="0.26" 
+	sustained_fire_diminish_rate="1.5"
+	magazine_size="32" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Trenchor" 
+	class="0" 
+  barrel_offset="0.5" 
+    stab_enabled="1"
+    stab_range="3.5"
+  projectile_speed="100.0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, aks74u" />
+    <animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+    <animation state_key="stabbing" animation_key="melee, bayonet" />
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="microgun_shot.wav" pitch_variety="0.05" volume="0.85"/>
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="Y_w_trenchor.xml" />
+
+    <hud_icon filename="hud_y_w_trenchor.png" />
+    <commonness value="0.005" in_stock="1" can_respawn_with="0"/>
+    <inventory encumbrance="10.0" price="90.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet_yellow.projectile">
+		<result
+		class="hit"
+		kill_probability="0.525"
+		kill_decay_start_time="0.275"
+		kill_decay_end_time="0.5"
+		/>
+    </projectile>
+    <modifier class="speed" value="+0.1" /> 
+	<stance state_key="prone" accuracy="0.9" />
+	<stance state_key="standing" accuracy="0.85" />
+	<stance state_key="crouching" accuracy="0.885" />
+	<stance state_key="over_wall" accuracy="1.0" />     
+</weapon>

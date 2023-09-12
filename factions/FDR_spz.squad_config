@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squad_config name="FDR_spz">
+	<!--  Not Done Yet -->
+	<spz_shooter />
+	<soldier weapon2_tag="medikit" />
+	<spz_shooter />
+	<spz_radio />
+
+	<spz_shooter />
+	<spz_shooter />
+	<spz_sniper />
+	<eilte />
+
+	<soldier />
+	<soldier />
+</squad_config>

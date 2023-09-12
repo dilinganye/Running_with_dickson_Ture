@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="G_w_T81.weapon">
+	<tag name="rf" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.995" 
+	sustained_fire_grow_step="3.5" 
+	sustained_fire_diminish_rate="0.7"
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="T81-Scoped Rifle" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="140.0" 
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+	spread_range="0.3"
+	sight_range_modifier="1.825"
+	stance_accuracy_rate="1.15"
+	/>
+	
+	<stance state_key="running" accuracy="0.1" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.95" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.1" /> 
+	<stance state_key="prone_moving" accuracy="0.6" />
+	<stance state_key="over_wall" accuracy="1.1" />	
+
+    <animation key="recoil" ref="27" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
+    <animation key="cycle" ref="30" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone, svd" />	
+    <animation state_key="reload" animation_key="reloading, dragunov_svd" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, sniper1, prone" /> 
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="Energy_railgun01.wav" pitch_variety="0.05" volume="0.8"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="G_w_T81.xml" />
+	<hud_icon filename="hud_g_w_T81.png" />
+	
+	<commonness value="0.2" in_stock="1" can_respawn_with="1"/>
+	<inventory encumbrance="10.0" price="20.0" />
+	
+	<projectile file="bullet_green.projectile">
+		<result
+		class="hit"
+		kill_probability="2.25"
+		kill_decay_start_time="0.7"
+		kill_decay_end_time="0.71"
+		/>
+	</projectile>
+	
+	<modifier class="speed" value="-0.1" />
+</weapon>

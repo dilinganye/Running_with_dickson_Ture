@@ -1,0 +1,2 @@
+dicksoner_mod_throwables 弹头key注册  生成类的才需要。武器直接发射的可以不注册，直接调用的文件。
+dicksoner_mod_weapons 武器key注册

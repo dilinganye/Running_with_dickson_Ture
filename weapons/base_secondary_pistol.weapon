@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon on_ground_up="0 0 1" drop_count_factor_on_death="1.0">
+	<tag name="cqb" />
+	
+	<specification
+	spread_range="0.3"
+	sustained_fire_diminish_rate="2.0"
+	sight_range_modifier="1.0"/>
+	
+	<animation state_key="recoil"	animation_key="recoil, pistol, 2hand" />
+	<animation state_key="recoil" stance_key="prone" animation_key="recoil, pistol, prone" />
+	<!--<animation state_key="reload" animation_key="reloading, pistol, 2hand" />-->			<!-- these had to be removed because some pistols don't use them, and it would otherwise enter a random pool rather than being overwritten -->
+	<!--<animation state_key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />-->
+	<animation state_key="hold"	animation_key="still, pistol, 2hand" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="still, pistol, 2hand" />
+	<animation state_key="still_against_wall"	animation_key="still, pistol, 2hand" />
+	<animation state_key="crouching"	animation_key="crouch, pistol, 2hand" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+	<animation state_key="prone_still" animation_key="prone_still, pistol" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	<animation state_key="changing_weapon_in"	animation_key="change weapon in, pacific pistol" />
+	
+	<modifier class="speed" value="-0.0" />
+
+	<sound class="impact" fileref="rifle_drop.wav" />
+	
+	<stance state_key="running" accuracy="0.8" />
+	<stance state_key="walking" accuracy="0.85" />
+	<stance state_key="crouch_moving" accuracy="0.85" />
+	<stance state_key="standing" accuracy="0.9" />
+	<stance state_key="crouching" accuracy="0.9" />
+	<stance state_key="prone" accuracy="0.9" /> 
+	<stance state_key="prone_moving" accuracy="0.85" />
+	<stance state_key="over_wall" accuracy="0.9" />		
+	
+</weapon>

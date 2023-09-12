@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="大型伞降行动" key="paratroopers_spz_huge_reinforce.call"
+	initiation_comment1="特遣小组请求进一步支援"
+	initiation_comment2="大型伞降协同行动"
+	acknowledge_comment="联邦大批运输机已突入战场"
+	launch_comment="大量联邦运输机已到达区域"
+  notify_metagame="1"  >
+
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="eilte"
+           instance_spread="8 15 8" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+    <round instances="6"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="10 15 10" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.5">
+    </round>
+
+
+    <round instances="8"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="10 15 10" 
+           common_spread="8 0 8" 
+           launch_time="8.0"
+           spawn_time="14.5">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+
+    <round instances="8"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="18 15 18" 
+           common_spread="12 0 12" 
+           launch_time="12.0"
+           spawn_time="16.5">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+    <hud_icon filename="hud_paratroopers1.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="5000.0" />
+
+</call>

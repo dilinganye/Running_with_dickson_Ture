@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rifle.weapon" key="Y_w_hellk.weapon">
+	<tag name="nrf" />
+
+	<specification 
+	retrigger_time="-1.0" 
+	accuracy_factor="0.99" 
+	sustained_fire_grow_step="3.5" 
+	magazine_size="5" 
+	can_shoot_standing="1" 
+	suppressed="0"
+	name="Hellk" 
+	class="2" 
+	reload_one_at_a_time="0" 
+	projectile_speed="135.0"
+	barrel_offset="0.5" 
+	projectiles_per_shot="1"
+	sight_range_modifier="1.1"
+	/>
+
+	<next_in_chain key="Y_w_hellk_b.weapon" share_ammo="1" />
+	
+	<stance state_key="standing" accuracy="0.89" />
+	<stance state_key="crouching" accuracy="0.97" />
+
+   	<animation key="recoil" ref="27" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil1, big, prone" />
+  	<animation key="cycle" ref="30" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone" />	
+   	<animation state_key="reload" animation_key="reloading, dragunov_svd" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, sniper1, prone" />
+		<animation state_key="next_in_chain_in" animation_key="mount bayonet part 2" />
+		<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 1" />  
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="Energy_railRifles01.wav" pitch_variety="0.05" volume="0.9"/>
+	<sound key="magazine_in" fileref="sniper_clip_in.wav" />
+	<sound key="cycle_out" fileref="sniper_cycle_out.wav" />
+	<sound key="cycle_in" fileref="sniper_cycle_in.wav" />
+	
+	<model filename="Y_w_hellk.xml" />
+	<hud_icon filename="hud_y_w_hellk.png" />
+	
+	<commonness value="0.2" in_stock="1" can_respawn_with="1"/>
+	<inventory encumbrance="10.0" price="20.0" />
+	
+	<projectile file="bullet_yellow.projectile">
+		<result
+		class="hit"
+		kill_probability="1.125"
+		kill_decay_start_time="0.5"
+		kill_decay_end_time="0.6"
+		/>
+	</projectile>
+	
+</weapon>

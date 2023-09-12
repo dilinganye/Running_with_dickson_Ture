@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_carbine.weapon" key="B_w_SpecialZone_Balance.weapon" drop_count_factor_on_death="1.0">
+	<tag name="ar" />
+	<tag name="spz" />
+	
+
+	<specification 
+	retrigger_time="0.120" 
+	accuracy_factor="0.980" 
+	sustained_fire_grow_step="0.28" 
+	sustained_fire_diminish_rate="1.68"
+	magazine_size="30" 
+	can_shoot_standing="1" 
+	suppressed="0" 
+	name="Balance" 
+	class="0" 
+	projectile_speed="110.0" 
+	barrel_offset="0.6" 
+	projectiles_per_shot="1"
+	/>
+
+	<stance state_key="crouching" accuracy="0.85" />
+	<stance state_key="over_wall" accuracy="0.85" />  
+
+	<animation key="recoil" ref="12" />
+	<animation key="recoil" ref="13" />
+	<animation key="recoil" ref="14" />
+	<animation key="reload" animation_key="reloading, ak47" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />
+	
+	<weak_hand_hold offset="0.2" />
+	
+    <sound key="fire" fileref="Energy_shoot2.wav" pitch_variety="0.05" volume="1.2"/>
+	<sound key="cycle" fileref="rifle_chamber.wav" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+
+	<effect class="muzzle" ref="muzzle_staystar"/>
+	<effect class="muzzle" ref="muzzle_halfcircle_02"/>
+	<effect class="muzzle" ref="muzzle_halfcircle_01"/>
+	
+	<model filename="B_w_SpecialZone_Balance.xml" />
+	<hud_icon filename="hud_b_w_SpecialZone_Balance.png" />
+	
+	<commonness value="0.002" can_respawn_with="0"/>
+	<inventory encumbrance="15.0" price="1500.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	
+	<projectile file="bullet_escort.projectile">
+		<result 
+		class="hit" 
+		kill_probability="0.625" 
+		kill_decay_start_time="0.344" 
+		kill_decay_end_time="0.73"
+		/>
+	</projectile>
+	
+</weapon>

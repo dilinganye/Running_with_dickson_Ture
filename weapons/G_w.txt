@@ -1,0 +1,9 @@
+G_w_N21	AR卡宾枪
+G_w_N47	SMG冲锋枪
+G_w_N57	RSG精准霰弹
+G_w_N90	MGS精准机枪
+G_w_P7	ATRF反坦克步枪
+G_w_T81	RF精准步枪
+G_w2_thistles	HG
+G_w2_thorns	SMG
+G_w2_watcher	SPS

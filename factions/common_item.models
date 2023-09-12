@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<!--model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_6"/><requirement class="rank" range="0 1000000" /></model-->
+	
+	
+</models>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call file="artillery1b.call" />
+	<call file="artillery1b_no_aim.call" />
+	<call file="artillery2b.call" />
+	<call file="artillery3b.call" />
+
+
+	<call file="paratroopers1b.call" />
+	<call file="paratroopers2b.call" />
+	<call file="paratroopers_test.call" />
+	<call file="paratroopers_spz_radio.call" />
+	<call file="paratroopers_spz_huge_reinforce.call" />
+</calls>

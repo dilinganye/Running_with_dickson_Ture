@@ -1,0 +1,129 @@
+import FakeNormalAndDepthWithTexture from "normal_and_depth.material"
+
+material Shine_b
+{
+	receive_shadows off
+	technique 
+	{
+		pass 
+		{
+			lighting on
+			depth_write off
+
+			scene_blend add
+			fog_override true
+
+			texture_unit 
+			{
+				texture burst_shine.png
+			}
+		}
+	}
+}
+
+material Smoke2_b : FakeNormalAndDepthWithTexture
+{
+    	receive_shadows off
+
+	technique FakeNormalAndDepth {
+        	pass FakeNormalAndDepth {
+            		texture_unit {
+                		texture smoke2.png
+	        		tex_address_mode clamp
+            		}
+			fragment_program_ref NormalAndDepthWithTextureFP {
+				param_named alphaRejection float 0.125
+			}
+        	}
+    	} 
+
+	technique Basic
+	{
+		pass 
+		{
+			lighting off
+
+			depth_write on
+			
+			alpha_rejection greater 32
+
+
+			texture_unit 
+			{
+				tex_address_mode clamp
+				texture smoke2.png
+			}
+		}
+	}
+}
+
+material Smoke3_b : FakeNormalAndDepthWithTexture
+{
+    	receive_shadows off
+
+	technique FakeNormalAndDepth {
+        	pass FakeNormalAndDepth {
+            		texture_unit {
+                		texture smoke3.png
+	        		tex_address_mode clamp
+            		}
+			fragment_program_ref NormalAndDepthWithTextureFP {
+				param_named alphaRejection float 0.125
+			}
+        	}
+    	} 
+
+	technique Basic
+	{
+		pass 
+		{
+			lighting off
+
+			depth_write on
+			
+			alpha_rejection greater 32
+
+
+			texture_unit 
+			{
+				tex_address_mode clamp
+				texture smoke3.png
+			}
+		}
+	}
+}
+
+material Smoke1_b : FakeNormalAndDepthWithTexture
+{
+    	receive_shadows off
+
+	technique FakeNormalAndDepth {
+        	pass FakeNormalAndDepth {
+            		texture_unit {
+                		texture smoke1.png
+	        		tex_address_mode clamp
+            		}
+        	}
+    	} 
+
+	technique Basic
+	{
+		pass 
+		{
+			lighting off
+
+			depth_write on
+
+			alpha_rejection greater 32
+
+			texture_unit 
+			{
+				tex_address_mode clamp
+				texture smoke1.png
+			}
+		}
+	}
+}
+
+
+

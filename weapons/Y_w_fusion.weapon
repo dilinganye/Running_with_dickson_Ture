@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="Y_w_fusion.weapon" time_to_live_out_in_the_open="90.0" drop_count_factor_on_death="1.0" player_death_drop_owner_lock_time="45.0">
+	<tag name="sniper" />
+	<tag name="rf" />
+	<tag name="at" />
+	<specification 
+	retrigger_time="0.7"  
+	accuracy_factor="0.8" 
+	sustained_fire_grow_step="6.5" 
+	stance_accuracy_rate="1.15"
+	magazine_size="5" 
+	can_shoot_standing="0" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="Fusion" 
+	class="4" 
+	burst_shots="1" 
+	projectiles_per_shot="2" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.65" 
+	projectile_speed="160.0" 
+	barrel_offset="0.65" />	
+	
+	<animation key="recoil" ref="27" />
+	<!--<animation key="cycle" animation_key="cycle, lahti_l39" />-->
+	<animation key="reload" animation_key="reloading, lahti_l39" />
+	<animation key="hold" ref="32" />
+	<animation key="hold_on_wall" ref="1" />
+	<animation state_key="walking" animation_key="walking, heavy weapon" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+	<animation key="running" animation_key="running, lahti_l39" />
+	
+	<sound key="fire" fileref="Shoot_dongr_1.wav" volume="1.0" />
+	<sound key="cycle" fileref="lahti_l39_cycle.wav" />
+	<sound key="magazine_out" fileref="rifle_clip_out.wav" />
+	<sound key="magazine_in" fileref="rifle_clip_in.wav" />
+	<sound key="cycle_out" fileref="lahti_l39_cycle.wav" />
+	<sound key="cycle_in" fileref="lahti_l39_cycle.wav" />
+	<sound class="impact" fileref="shield_drop.wav" />
+	<model filename="Y_w_fusion.xml" />
+	
+	<hud_icon filename="hud_y_w_fusion.png" />
+	<commonness value="0.01" in_stock="1" can_respawn_with="0" />
+	<inventory encumbrance="20.0" price="1000" />
+	
+	<weak_hand_hold offset="0.5" />
+	<projectile file="Y_w_fusion.projectile">
+	</projectile>
+	
+	<effect class="muzzle" ref="BigMuzzle" />
+	<effect class="muzzle" ref="CannonSmokeBig" /> 
+<!--<effect class="muzzle" ref="CannonSmokeBigSphere" />-->    
+	
+	<stance state_key="running" accuracy="0.4" />
+	<stance state_key="walking" accuracy="0.6" />
+	<stance state_key="crouch_moving" accuracy="0.6" />
+	<stance state_key="standing" accuracy="0.66" />
+	<stance state_key="crouching" accuracy="0.8" />
+	<stance state_key="prone" accuracy="1.0" /> 
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="over_wall" accuracy="1.0" />
+	
+	<modifier class="speed" value="-0.175" />
+	
+</weapon>

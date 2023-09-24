@@ -26,8 +26,8 @@
 	/>
 
 
-	<stance state_key="running" accuracy="0.2" />
-	<stance state_key="walking" accuracy="0.3" />
+	<stance state_key="running" accuracy="0.1" />
+	<stance state_key="walking" accuracy="0.5" />
 	<stance state_key="crouch_moving" accuracy="0.5" />
 	<stance state_key="standing" accuracy="0.35" />
 	<stance state_key="crouching" accuracy="0.85" />
@@ -53,14 +53,16 @@
 	
 	<model filename="B_w_SpecialZone_Affirm.xml" />
 	<hud_icon filename="hud_b_w_SpecialZone_Affirm.png" />
+	<capacity value="1" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="1.0" />
 	
-	<commonness value="0.05" in_stock="1" can_respawn_with="1"/>
+	<commonness value="0.05" in_stock="1" can_respawn_with="0"/>
 	<inventory encumbrance="10.0" price="1500.0" />
 	
 	<projectile file="bullet_escort.projectile">
 		<result
 		class="hit"
-		kill_probability="1.0"
+		kill_probability="2.1"
 		kill_decay_start_time="0.25"
 		kill_decay_end_time="0.50"
 		/>

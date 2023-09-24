@@ -17,12 +17,12 @@
 	<carry_item key="MK_Test4.carry_item" />
 	<carry_item key="special_type_sentry.carry_item"/>
 	<carry_item key="support_sentry.carry_item.carry_item"/>
-	<carry_item key="sniper_armor.carry_item"/>
 	<projectile key="c4.projectile" />
 
 	<!-- Mod resources-Only for now! Will be del after have vehicle and AT-stuffs -->
 	<weapon key="rpg-7.weapon" />
-
+	<weapon key="medikit_ai_2.weapon"/>
+	<weapon key="C_w2_bandage.weapon"/>
 
 
 

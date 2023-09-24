@@ -53,7 +53,7 @@
 	<projectile file="bullet_green.projectile">
 		<result
 		class="hit"
-		kill_probability="2.25"
+		kill_probability="3.25"
 		kill_decay_start_time="0.7"
 		kill_decay_end_time="0.71"
 		/>

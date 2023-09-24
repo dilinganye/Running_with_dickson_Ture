@@ -10,15 +10,24 @@
 		<weapon key="G_w_T81.weapon" />
 		<weapon key="G_w_P7.weapon" />
 
+	<!-- 孢子主武器-正式版随时禁用 -->
+		<weapon key="G_w_SporerWing_Survey.weapon" />
+		<weapon key="G_w_SporerWing_Garnosned.weapon" />
+		<weapon key="G_w_SporerWing_Rhizoden.weapon" />
+
 	<!-- 副手 -->
 		<weapon key="G_w2_thistles.weapon" />
 		<weapon key="G_w2_thorns.weapon" />
 		<weapon key="G_w2_watcher.weapon" />
 
 	<!-- 投掷物 -->
+		<projectile key="G_w3_overseed.projectile" />
+		<projectile key="G_w3_grassform.projectile" />
 
 	<!-- 电台支援 -->
 		<call key="paratroopers1b.call" />
 		<call key="paratroopers2b.call" />
+
+		<call key="paratroopers_test_wing.call" />
 	
 </resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<carry_items>
+	<carry_item key="Y_M_166_armor_officer.carry_item" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服-Officer" transform_on_consume="Y_M_166_armor_officer_1" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X.png"/>
+		<capacity value="1" source="rank" source_value="0.01"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="200"/>
+		<!--model mesh_filename="Armor_Y_M_166_armor_officer.xml"/-->
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.08" />
+    <modifier class="hit_success_probability" value="-0.225" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.15" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+	<carry_item key="Y_M_166_armor_officer_1" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,1" transform_on_consume="Y_M_166_armor_officer_2" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_1.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.12" />
+    <modifier class="hit_success_probability" value="-0.125" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+	<carry_item key="Y_M_166_armor_officer_2" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,2" transform_on_consume="Y_M_166_armor_officer_3" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_1.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.11" />
+    <modifier class="hit_success_probability" value="-0.125" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+	<carry_item key="Y_M_166_armor_officer_3" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,3" transform_on_consume="Y_M_166_armor_officer_3_2" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.12" />
+    <modifier class="hit_success_probability" value="-0.125" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+
+	<carry_item key="Y_M_166_armor_officer_3_2" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,4" transform_on_consume="Y_M_166_armor_officer_3_3" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.15" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+
+
+	<carry_item key="Y_M_166_armor_officer_3_3" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,5" transform_on_consume="Y_M_166_armor_officer_3_4" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.1" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+
+	<carry_item key="Y_M_166_armor_officer_3_4" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,6" transform_on_consume="Y_M_166_armor_officer_3_5" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.08" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+
+	<carry_item key="Y_M_166_armor_officer_3_5" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,7" transform_on_consume="Y_M_166_armor_officer_3_6" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.08" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+	
+	<carry_item key="Y_M_166_armor_officer_3_6" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,8" transform_on_consume="Y_M_166_armor_officer_3_6" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.08" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	</carry_item>
+	
+	<carry_item key="Y_M_166_armor_officer_4" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,9" transform_on_consume="Y_M_166_armor_officer_5" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.08" />
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun"  />
+	</carry_item>
+	<carry_item key="Y_M_166_armor_officer_5" time_to_live_out_in_the_open="15" name="工团166型甲型堑壕服,dead" drop_count_factor_on_death="0" drop_count_factor_on_player_death="0" slot="1">
+		<hud_icon filename="MK_X_2.png"/>
+		<capacity value="1" source="rank" source_value="0"/>
+		<commonness value="1" in_stock="1" can_respawn_with="1"/>
+		<inventory encumbrance="20" price="1"/>
+		<model mesh_filename="cs.xml"/>
+		<modifier class="speed" value="+0.15" />
+    <modifier class="hit_success_probability" value="-0.08" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="death" />
+	<modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+	</carry_item>
+</carry_items>

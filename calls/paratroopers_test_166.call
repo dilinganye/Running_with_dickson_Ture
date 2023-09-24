@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="空降166区块大队" key="paratroopers_test_166.call"
+	initiation_comment1="测试"
+	initiation_comment2="166区块预备队协助"
+	acknowledge_comment="重型运输机正在进入战区"
+	launch_comment="166区块作战班组已到达"
+  notify_metagame="1"  >
+
+    <round instances="4"
+           instance_class="soldier"
+	   instance_key="166_assault"
+           instance_spread="4 4 4" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="166_officer"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="11.0">
+
+    </round>
+    <round instances="3"
+           instance_class="soldier"
+	   instance_key="166_forlorn"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="11.0">
+
+    </round>
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="b_medic"
+           instance_spread="6 6 6" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="11.0">
+
+    </round>
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="frame_ai"
+           instance_spread="8 8 8" 
+           common_spread="0 0 0" 
+           launch_time="7.0"
+           spawn_time="12.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+	
+    <round instances="1"
+           instance_class="soldier"
+	   instance_key="166_mager"
+           instance_spread="8 8 8" 
+           common_spread="0 0 0" 
+           launch_time="7.0"
+           spawn_time="12.0">
+
+    </round>
+
+    <hud_icon filename="hud_paratroopers1.png" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="3000.0" />
+
+</call>

@@ -14,6 +14,7 @@
 	projectile_speed="100.0"
 	barrel_offset="0.6"
 	projectiles_per_shot="1"
+    ai_sight_range_modifier="0.95"
     />
     
 	<next_in_chain key="Y_w_fillpud_b.weapon" share_ammo="0" />  

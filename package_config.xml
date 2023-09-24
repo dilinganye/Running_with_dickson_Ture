@@ -1,6 +1,15 @@
 <package 
 	name="Running with Dickson" 
-	description="Be careful of the torpedo"
+	description="三种势力在小小的星球上爆发了全面战争，这场战争已经持续了五十余年，下方为阵营简介
+Federal
+自由民主方为最守序之形态，我们要消灭一切危害我们这种意识的家伙，当然，出于自由的缘故，我们当然可以对敌人进行灭绝，他们不需要民主，那就让他们理解没有民主的痛苦。
+
+Pan oppression extinction Organization Alliance【反泛压迫与灭绝组织联盟】
+消灭所有压迫者，我们要把他们的家人，他们的同伴，把他们从形态到基因到身上存在的任何物质都全部毁灭掉！所有存在的阶级都应该被泯灭，我们要解放！为工团而欢呼！
+
+Whicultivateper（cultivate+whisper）WTTP
+世界上有太多的异己者，他们都不清楚低语之树的意义…科技本身是一种对我族的牢笼，他们根本不明白…科技的核心是为了接近低语之树…我们要回到母亲的怀抱之中，这是从出生起就注定的，为什么会有人不明白呢…他们终究会理解的。
+"
 	image="DC.png"
 	campaign_entry_script="start_campaign.as"
 	show_in_campaigns="1"
@@ -21,36 +30,36 @@
 			friendly_capacity="1.22"
 			friendly_accuracy="1.0"
 			enemy_capacity="1.0"
-			enemy_accuracy="0.93"
+			enemy_accuracy="0.75"
 			xp_multiplier="1.0"
 			rp_multiplier="1.0"
-			player_damage_modifier="0.4"
+			player_damage_modifier="0.25"
 			/>
 		<preset text="Difficulty:Normal" help="Help:Normal" id="normal"
 			friendly_capacity="1.20"
 			friendly_accuracy="1.0"
 			enemy_capacity="1.3"
-			enemy_accuracy="0.94"
+			enemy_accuracy="0.9"
 			xp_multiplier="1.2"
 			rp_multiplier="1.4"
-			player_damage_modifier="0.2"
+			player_damage_modifier="0.01"
 			/>
 		<preset text="Difficulty:Hard" help="Help:Hard" id="hard"
 			friendly_capacity="1.15"
 			friendly_accuracy="1.0"
 			enemy_capacity="1.3"
-			enemy_accuracy="0.98"
+			enemy_accuracy="0.95"
 			xp_multiplier="1.6"
 			rp_multiplier="1.4"
 			player_damage_modifier="0.0"
 			/>
 		<preset text="Difficulty:Veteran" help="Help:Veteran" id="veteran"
-			friendly_capacity="1.20"
-			friendly_accuracy="1.0"
-			enemy_capacity="1.5"
-			enemy_accuracy="1.0"
-			xp_multiplier="1.8"
-			rp_multiplier="1.6"
+			friendly_capacity="1.10"
+			friendly_accuracy="1.00"
+			enemy_capacity="1.4"
+			enemy_accuracy="0.95"
+			xp_multiplier="1.5"
+			rp_multiplier="2.0"
 			player_damage_modifier="0.0"
 			/>
 		<preset text="Presets:Custom" help="Help:Presets:Custom" id="custom"

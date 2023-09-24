@@ -11,6 +11,9 @@
   <weapon file="Y_w_fusion.weapon" />
   <weapon file="Y_w_fillpud.weapon" />
   <weapon file="Y_w_fillpud_b.weapon" />
+  <weapon file="Y_w_Group166Chunk_Harvest.weapon" />
+  <weapon file="Y_w_Group166Chunk_Lord.weapon" />
+  <weapon file="Y_w_Group166Chunk_Construct.weapon" />
 
   
 </weapons>

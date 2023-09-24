@@ -57,7 +57,7 @@
 
         <!-- Change to 1.0 at the end -->
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.4" />    
+	<capacity value="1" source="rank" source_value="1.0" />  
 
     <modifier class="speed" value="+0.1" />
     

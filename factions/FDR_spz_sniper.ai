@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ai filename="sniper.ai">
-  <parameter class="accuracy_offset" value="0.1" /> 
   <parameter class="leader_sight_range" value="55.0" />
   <parameter class="force_as_leader" value="1" />
 

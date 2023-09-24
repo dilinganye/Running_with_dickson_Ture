@@ -11,4 +11,7 @@
 	<call file="paratroopers_test.call" />
 	<call file="paratroopers_spz_radio.call" />
 	<call file="paratroopers_spz_huge_reinforce.call" />
+
+	<call file="paratroopers_test_166.call" />
+	<call file="paratroopers_test_wing.call" />
 </calls>

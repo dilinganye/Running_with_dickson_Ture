@@ -5,6 +5,11 @@
    	 <projectile file="rpg-7_rocket.projectile" />  
 	<!--势力手雷-->
 	<projectile file="B_w3_teg.projectile" />
+	<projectile file="B_w3_Sticky_explosive.projectile" />
+	<projectile file="G_w3_overseed.projectile" />
+	<projectile file="G_w3_grassform.projectile" />
+	<projectile file="Y_w3_adopt.projectile" />
+	<projectile file="Y_w3_big_adopt.projectile" />
 
 	<!--支援-->
 	<projectile file="artillery_b_shell.projectile" />

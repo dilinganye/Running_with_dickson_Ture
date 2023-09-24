@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<call 	name="孢子之翼空降介入" key="paratroopers_test_wing.call"
+	initiation_comment1="测试"
+	initiation_comment2="孢子之翼空降"
+	acknowledge_comment="教团隐形运输机正在介入战区"
+	launch_comment="孢子之翼小队已到达"
+  notify_metagame="1"  >
+
+    <round instances="6"
+           instance_class="soldier"
+	   instance_key="spw_normal"
+           instance_spread="4 4 4" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+	
+    <round instances="6"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="12.0">
+    </round>
+	
+    <round instances="3"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="13.0">
+    </round>
+	
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="para"
+           instance_spread="6 6 6" 
+           common_spread="0 0 0" 
+           launch_time="6.0"
+           spawn_time="14.0">
+    </round>
+
+    <hud_icon filename="hud_paratroopers1.png" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="3000.0" />
+
+</call>

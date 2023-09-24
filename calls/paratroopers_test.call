@@ -6,6 +6,24 @@
 	launch_comment="测试小组已到达"
   notify_metagame="1"  >
 
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="ranger"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="1.0"
+           spawn_time="2.0">
+    </round>
+
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="assault"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="1.0"
+           spawn_time="4.0">
+    </round>
+
     <round instances="4"
            instance_class="soldier"
 	   instance_key="spz_shooter"
@@ -49,7 +67,7 @@
     <hud_icon filename="hud_paratroopers1.png" />
 
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="100" source="rank" source_value="0.0" />
-    <inventory encumbrance="0.7" price="30.0" />
+    <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="3000.0" />
 
 </call>

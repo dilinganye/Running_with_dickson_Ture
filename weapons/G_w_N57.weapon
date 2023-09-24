@@ -18,9 +18,11 @@
   reload_one_at_a_time="0" 
   sight_range_modifier="1.0" 
   projectile_speed="90.0" 
-  projectiles_per_shot="6" />
+  projectiles_per_shot="6"
+    ai_sight_range_modifier="0.85" />
 
-	<stance state_key="running" accuracy="0.325" />
+	<stance state_key="running" accuracy="0.2" />
+	<stance state_key="walking" accuracy="0.5" />
 	<stance state_key="crouching" accuracy="0.75" />
 	<stance state_key="prone" accuracy="0.8" />
 	<stance state_key="over_wall" accuracy="0.85" />  

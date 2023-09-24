@@ -3,11 +3,11 @@
     <tag name="smg" />
 	<tag name="cqb" />
     <specification 
-	retrigger_time="0.1" 
+	retrigger_time="0.0925" 
 	accuracy_factor="0.9" 
 	sustained_fire_grow_step="0.26" 
-	sustained_fire_diminish_rate="1.5"
-	magazine_size="32" 
+	sustained_fire_diminish_rate="1.825"
+	magazine_size="56" 
 	can_shoot_standing="1" 
 	suppressed="0" 
 	name="Trenchor" 
@@ -15,7 +15,7 @@
   barrel_offset="0.5" 
     stab_enabled="1"
     stab_range="3.5"
-  projectile_speed="100.0" />
+  projectile_speed="110.0" />
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -40,9 +40,9 @@
     <projectile file="bullet_yellow.projectile">
 		<result
 		class="hit"
-		kill_probability="0.525"
+		kill_probability="0.54"
 		kill_decay_start_time="0.275"
-		kill_decay_end_time="0.5"
+		kill_decay_end_time="0.55"
 		/>
     </projectile>
     <modifier class="speed" value="+0.1" /> 

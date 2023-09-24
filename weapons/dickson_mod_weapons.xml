@@ -8,4 +8,6 @@
 <!-- Test weapons  -->
 	<!-- weapon file="cs_1.weapon"/  -->	
    	 <weapon file="rpg-7.weapon" />  
+	<weapon file="medikit_ai_2.weapon" />  
+	<weapon file="C_w2_bandage.weapon" />  
 </weapons>

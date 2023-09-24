@@ -159,9 +159,9 @@
 	<comment key="Hmm, no signal" text="杂波干扰了我对林地的情愿..." />
 	<comment key="cancel radio call" text="遵循林地的意愿" />
 	<comment key="cancel radio call" text="如果这是林地的意愿..." />
-	<comment key="initiate radio call" text="我已大声呼号，念诵而不得的&#37;rank_name拜请援助" />
-	<comment key="initiate radio call" text="我拜请低语，&#37;rank_name需要来自林地深处的协助" />
-	<comment key="initiate radio call" text="我已焚烧第三层枝叶，&#37;rank_name需要林地的机遇" />
+	<comment key="initiate radio call" text="我已大声呼号，念诵而不得的传颂者拜请援助" />
+	<comment key="initiate radio call" text="我拜请低语，传颂者需要来自林地深处的协助" />
+	<comment key="initiate radio call" text="我已焚烧第三层枝叶，传颂需要自林地的机遇" />
 	<comment key="commander radio response" text="如果这是林地的意愿..." />
 	<comment key="commander radio response" text="*无线电中裹杂了越发清晰的风声*" />
 	<comment key="commander radio response" text="*无线电杂音中混杂了模糊的声音*" />
@@ -342,24 +342,19 @@
   <comment key="enemy seen, vehicle tag = apc" text="林地，请赐予我庇护！" />
   <comment key="enemy seen, vehicle tag = apc" text="低语之树的敌人！" />
   
-  <comment key="enemy seen, vehicle tag = truck" text="发现卡车！" />
-  <comment key="enemy seen, vehicle tag = truck" text="是卡车！" />
-  <comment key="enemy seen, vehicle tag = truck" text="这不是工团的卡车！" />
-  <comment key="enemy seen, vehicle tag = truck" text="前方发现敌军运输车！" />
-  <comment key="enemy seen, vehicle tag = truck" text="发现运输卡车！" />
-  <comment key="enemy seen, vehicle tag = truck" text="敌军运输卡车！" />          
+  <comment key="enemy seen, vehicle tag = truck" text="异教徒的运输车辆！" />
+  <comment key="enemy seen, vehicle tag = truck" text="他没有遵循绿茵的指导！" />
+  <comment key="enemy seen, vehicle tag = truck" text="盘根会为这种事情而愤怒！" />
+  <comment key="enemy seen, vehicle tag = truck" text="他们的卡车不遵守青苔的引导！" />      
   
   <comment key="enemy not seen, taking suppressed fire" text="？" />
-  <comment key="enemy not seen, taking suppressed fire" text="是风声还是什么？" />
-  <comment key="enemy not seen, taking suppressed fire" text="！" />
-  <comment key="enemy not seen, taking suppressed fire" text="未知火力！" />
-  <comment key="enemy not seen, taking suppressed fire" text="消音武器！" />
+  <comment key="enemy not seen, taking suppressed fire" text="那是低语吗？" />
+  <comment key="enemy not seen, taking suppressed fire" text="是我幻听了吗？那是低语还是？" />
+  <comment key="enemy not seen, taking suppressed fire" text="你们听到了吗？" />
+  <comment key="enemy not seen, taking suppressed fire" text="...那不像是祷文" />
   
-  <comment key="Waiting for reinforcements" text="我得...歇会儿"/>
-  <comment key="Waiting for reinforcements" text="等会他们" />
-  <comment key="Waiting for reinforcements" text="同志？" />
-  <comment key="Waiting for reinforcements" text="后面人呐？" />
-  <comment key="Waiting for reinforcements" text="同志们去哪儿了？" />
+  <comment key="Waiting for reinforcements" text="遵循..."/>
+  <comment key="Waiting for reinforcements" text="低语之树令我在此等待..." />
 
   <comment key="All quiet here" text="好安静...正如林地一般" />
   <comment key="All quiet here" text="*不知道在叨咕些什么*" />
@@ -367,63 +362,65 @@
   <comment key="All quiet here" text="*听不清的祷文*" />
   <comment key="All quiet here" text="..." />
 
-  <comment key="Yes sir" text="如果这是低语之树的意愿" />
-  <comment key="Yes sir" text="正如祷文所言" />
+  <comment key="Yes sir" text="...如果这是低语之树的意愿" />
+  <comment key="Yes sir" text="...正如祷文所言" />
   <comment key="Yes sir" text="是的，当然" />
 
-  <comment key="Uh, I can't drive this thing" text="实话实说...我更擅长祷告一些" />
+  <comment key="Uh, I can't drive this thing" text="...我更擅长祷告一些" />
   <comment key="Uh, I can't drive this thing" text="...这肯定不是低语之树的意愿" />
   <comment key="Uh, I can't drive this thing" text="呃..." />
   <comment key="Uh, I can't drive this thing" text="我更想步行前往青苔所指引的方向..." />
   <comment key="Uh, I can't drive this thing" text="Jackol设计的真是离谱，就不能让AI绕过这些东西？..." />
 
-  <comment key="Waiting for squad" text="啊，什么？" />
-  <comment key="Waiting for squad" text="停下来了，同志" />
-  <comment key="Waiting for squad" text="什么事，同志" />
-  <comment key="Waiting for squad" text="什么？" />
-  <comment key="Waiting for squad" text="？" />
-  <comment key="Shield up" text="竖盾" />
-  <comment key="Shield up" text="防御" />
-  <comment key="Shield up" text="来打我啊你们这些杂种！" />
+  <comment key="Waiting for squad" text="...如果这是低语之树的意愿" />
+  <comment key="Waiting for squad" text="...正如祷文所言" />
+  <comment key="Waiting for squad" text="是的，当然" />
+  <comment key="Waiting for squad" text="青苔引导前路" />
+  <comment key="Waiting for squad" text="正如盘根的祷文" />
+  <comment key="Shield up" text="让他们见识到林地的庇佑！" />
+  <comment key="Shield up" text="他们无法击穿真理！" />
   <comment key="Shield up" text="" />
-  <comment key="overencumbered" text="该死的背包！" />
-  <comment key="overencumbered" text="我...我他妈不能背着这么重的东西射击" />
-  <comment key="overencumbered" text="我是不是脑子坏了，我最好丢一些东西" />
-  <comment key="overencumbered" text="我要是现在遇敌绝对要出事" />
-  <comment key="Where to, chief?" text="同志，有什么想去的地儿么？" />
-  <comment key="Where to, chief?" text="同志，有什么目的地吗？" />
-  <comment key="Where to, chief?" text="您说了算" />
-  <comment key="Where to, chief?" text="等待命令" />
-  <comment key="celebrating" text="同志！我们赢了！" />
-  <comment key="celebrating" text="我没死！" />
-  <comment key="celebrating" text="我...我活下来了！" />
-  <comment key="celebrating" text="我们胜利了！" />
-  <comment key="celebrating" text="他们被我们赶出去了！" />
-  <comment key="celebrating" text="我们把他们驱逐出去了！" />
-  <comment key="celebrating" text="把他们全部绞死！" />
-  <comment key="celebrating" text="不留俘虏！" />
-  <comment key="celebrating" text="终于！" />
-  <comment key="celebrating" text="我得抓紧写写我的家书了" />
-  <comment key="celebrating" text="天哪，真是漫长的战斗" />
-  <comment key="celebrating" text="我们胜利了，我们胜利了！" />
-  <comment key="celebrating" text="工团击溃了他们！" />
-  <comment key="celebrating" text="*攥着照片颤抖*" />
+  <comment key="overencumbered" text="...沉重的包裹并不能让我尽快到达盘根指引之处" />
+  <comment key="overencumbered" text="我...我不能背着这么重的东西射击" />
+  <comment key="overencumbered" text="青苔会对我这种行为会生厌的" />
+  <comment key="overencumbered" text="现在荆棘一定会将我彻底吞噬..." />
+  <comment key="Where to, chief?" text="为了林地的意愿..." />
+  <comment key="Where to, chief?" text="一切为了低语之树..." />
+  <comment key="Where to, chief?" text="静待传颂者转达青苔之言" />
+  <comment key="Where to, chief?" text="静待传颂者转述盘根之理" />
+  <comment key="Where to, chief?" text="静待传颂者复述林地低语" />
+  <comment key="celebrating" text="异教徒永无明日！" />
+  <comment key="celebrating" text="这将是一次寂静之春" />
+  <comment key="celebrating" text="为了低语之树" />
+  <comment key="celebrating" text="如同低语之树的意愿" />
+  <comment key="celebrating" text="如同林地之低语" />
+  <comment key="celebrating" text="伪炉枝叶揭露其身..." />
+  <comment key="celebrating" text="此非夜晚亦非黎明..." />
+  <comment key="celebrating" text="将荆棘与亚麻赠与！" />
+  <comment key="celebrating" text="纯白朽木不曾腐败！" />
+  <comment key="celebrating" text="...逆光之卵萌于神侵" />
+  <comment key="celebrating" text="...第五重方向重现于冥" />
+  <comment key="celebrating" text="树之阴亥重现昔砷..." />
+  <comment key="celebrating" text="沙之明血黯喑今坤" />
+  <comment key="celebrating" text="一切为了真理！" />
+  <comment key="celebrating" text="他们见识到了！" />
+  <comment key="celebrating" text="林地的赞赏！" />
 
-  <comment key="about to drive over a friendly" text="同志，我差点撞到你！" />
-  <comment key="about to drive over a friendly" text="让开点，同志！" />
-  <comment key="about to drive over a friendly" text="小心点，同志！" />
-  <comment key="about to drive over a friendly" text="嘿！" />
-  <comment key="about to drive over a friendly" text="同志！？你不要命啦！" />
+  <comment key="about to drive over a friendly" text="遵循青苔的指引！" />
+  <comment key="about to drive over a friendly" text="盘根未让我于此处停留！" />
+  <comment key="about to drive over a friendly" text="那是低语！还是我差点创死人了？" />
+  <comment key="about to drive over a friendly" text="倾听青苔的祷文！" />
+  <comment key="about to drive over a friendly" text="请遵循祷文！" />
   
-  <comment key="this is as close as i can get" text="我走得够近了" />
+  <comment key="this is as close as i can get" text="走得够近了" />
   <comment key="this is as close as i can get" text="不能再靠近了" />
   
-  <comment key="enemy vehicle spotted, near base" text="在&#37;base_name附近发现属于&#37;enemy_name的&#37;vehicle_name" />
-  <comment key="enemy vehicle spotted, not near base" text="发现来自&#37;enemy_name的&#37;vehicle_name" />
-  <comment key="comms have been restored" text="通讯已紧急修复" />
+  <comment key="enemy vehicle spotted, near base" text="&#37;enemy_name的&#37;vehicle_name在&#37;base_name附近被发现" />
+  <comment key="enemy vehicle spotted, not near base" text="&#37;enemy_name的&#37;vehicle_name被发现，请各单位查看终端" />
+  <comment key="comms have been restored" text="我们与林地的通讯再次畅通" />
   <comment key="enemy comms have been restored" text="&#37;enemy_name的通讯已完全恢复" />
-  <comment key="comms have been destroyed" text="我方通讯设备被摧毁！" />
-  <comment key="enemy comms have been destroyed, by us" text="干得漂亮，&#37;enemy_name的通讯现在已经被破坏了！" />
+  <comment key="comms have been destroyed" text="紧急播报，敌人摧...*彭---* *无线电失去了声音*" />
+  <comment key="enemy comms have been destroyed, by us" text="&#37;enemy_name已经失去了他们的指引" />
 
   <dialogue key="wander dialogue 2 men">
     <comment text="老天..." />
@@ -621,65 +618,63 @@
   
   
 	<!-- commander comments -->
-  <comment key="player promotion" text="恭喜你，同志，你刚刚晋升到了&#37;rank_name" />
-  <comment key="player promotion" text="恭喜，同志，你刚刚晋升到了&#37;rank_name" />
-  <comment key="player promotion" text="同志，你刚刚晋升到了&#37;rank_name，感谢你为工团的付出！" />
-  <comment key="we captured a base" text="工团已解放&#37;base_name" />
-  <comment key="we captured a base" text="我们已经解放了&#37;base_name" />
-  <comment key="we captured a base" text="敌人失去了&#37;base_name的控制权" />
-  <comment key="enemy captured a base" text="&#37;base_name被&#37;faction_name占据了" />
-  <comment key="enemy captured a base" text="&#37;faction_name取得了&#37;base_name的控制权" />
-  <comment key="enemy captured a base" text="&#37;faction_name击退了我们在&#37;base_name的部队" />
-  <comment key="enemy captured a base" text="&#37;base_name被&#37;faction_name重新控制" />
+  <comment key="player promotion" text="传颂者，你已被授为&#37;rank_name" />
+  <comment key="player promotion" text="传颂者，林地已授权你作为&#37;rank_name" />
+  <comment key="we captured a base" text="&#37;base_name已经埋下了林地的种子，终会生根发芽" />
+  <comment key="we captured a base" text="林地的影响已经蔓延至&#37;base_name" />
+  <comment key="we captured a base" text="现在&#37;base_name已经成为了林地的一部分" />
+  <comment key="enemy captured a base" text="林地在&#37;base_name的影响被&#37;faction_name破坏了！干掉那些异教徒！" />
+  <comment key="enemy captured a base" text="&#37;faction_name铲除了我们在&#37;base_name播下的种子！第三真理已经溃堤，清剿异教徒的痕迹！" />
+  <comment key="enemy captured a base" text="&#37;faction_name蚕食了林地！&#37;base_name已经被异教徒侵占，朽木不曾腐败，消灭异教徒！" />
   <comment key="neutral captured a base" text="呃？暴民控制了&#37;base_name？夺回来" />
-  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，从&#37;direction向&#37;base_name进攻" />
-  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，目标为&#37;base_name" />
-  <comment key="new attack orders" text="来自前线督察队的消息，攻击据点，请查看终端" />
-  <comment key="we have lost our last base" text="我们的最后一个据点也被他们占领了！我们失去了在这片区域中最后的武装力量！" />
-  <comment key="enemy has lost their last base" text="此区域&#37;faction_name的最后部队已经投降！" />
-  <comment key="enemy has lost their last base" text="&#37;faction_name失去了他们在此区域的最后有生力量！" />
-  <comment key="our assault ran out of time" text="我们没有时间攻击了--我们的人力已经用光了，我们输了！" />
-  <comment key="enemy assault ran out of time" text="&#37;faction_name耗光了他们的人力！" />
-  <comment key="we won by map conquer" text="为了工团！敌人失去了所有此区域的据点，我们胜利了！" />
-  <comment key="we won by map conquer" text="为了工团！我们夺得了这片土地！" />
-  <comment key="we won by defense timer" text="为了工团！我们解放了这个区块！" />
-  <comment key="our base is under attack" text="&#37;base_name正在被攻击！" />
-  <comment key="we are attacking a base" text="我们的部队正在攻击&#37;base_name" />
-  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近发生冲突，请附近部队支援" />
-  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近需要支援，请查看终端" />
-  <comment key="fighting near a base" text="战区消息，在&#37;base_name附近发生交火，请附近部队支援" />
-  <comment key="defense timer started" text="据前线督察队估计，&#37;faction_name离守住全部基地还剩&#37;time_left秒！" />
-  <comment key="defense timer to go" text="前线督察队估计距离战斗结束还差&#37;time_left秒！" />
+  <comment key="new attack orders" text="*林地展示了它的远景*...为此，所有人会从&#37;direction开始夺取&#37;base_name，盘根在青苔之处，前进！" />
+  <comment key="new attack orders" text="*低语蔓延在所有人的耳边*...&#37;base_name必须成为林地怀抱中的一份子..." />
+  <comment key="new attack orders" text="*青苔之言在颅内震荡*...无论如何&#37;base_name的异教徒必须被剿灭..." />
+  <comment key="we have lost our last base" text="*林地的影响消退了*" />
+  <comment key="enemy has lost their last base" text="&#37;faction_name的最后部队已经接受了低语之树的仁慈！" />
+  <comment key="enemy has lost their last base" text="&#37;faction_name已经认识到他们的错误！遵循真理，荆棘遂为亚麻！" />
+  <comment key="our assault ran out of time" text="*林地的影响逐渐变弱*" />
+  <comment key="enemy assault ran out of time" text="&#37;faction_name的异教徒已经死伤殆尽" />
+  <comment key="we won by map conquer" text="*林地的影响增强了，你们感受到了更强烈的温暖*" />
+  <comment key="we won by map conquer" text="*林地的影响增强了，你们感觉草木都在迸发着鲜活的脉络*" />
+  <comment key="we won by map conquer" text="*一股纯白的影响降落在林地的新影响区域内，土地随之震颤*" />
+  <comment key="we won by defense timer" text="*林地的影响随时间增强了，你们感受到了更强烈的温暖*" />
+  <comment key="we won by defense timer" text="*林地的影响随时间增强了，你们感觉草木都在抖动着鲜活的脉络*" />
+  <comment key="we won by defense timer" text="*一股纯白的影响逐渐扩散在林地的新影响区域内，土地颤抖，石块迸发*" />
+  <comment key="our base is under attack" text="异教徒正在干扰林地在&#37;base_name的影响！" />
+  <comment key="we are attacking a base" text="教徒聚集与&#37;base_name执行林地之意愿" />
+  <comment key="fighting near a base" text="&#37;base_name已经受到了林地的影响..." />
+  <comment key="fighting near a base" text="林地的影响已经发展至&#37;base_name..." />
+  <comment key="fighting near a base" text="低语揭示了&#37;base_name的位置..." />
+  <comment key="defense timer started" text="&#37;faction_name可能还有&#37;time_left秒就会清剿林地在此处的影响！夺回！夺回！夺回！" />
+  <comment key="defense timer to go" text="只需&#37;time_left秒，林地便可笼罩此处" />
 
   <!-- adventure mode -->
-  <comment key="map start with 1 base, part 1" text="这里是前线督察队，全体注意消息" />
-  <comment key="map start with 1 base, part 1" text="这里是前线督察队，工团单位注意" />
-  <comment key="map start with 1 base, part 1" text="这里是前线督察队，所有工团单位注意" />
-  <comment key="map start with 1 base, part 2" text="你们被派遣至&#37;map_name" />
-  <comment key="map start with 1 base, part 2" text="&#37;map_name现在正在敌人的控制之下" />
-  <comment key="map start with 1 base, part 2" text="你们需要尽全力夺得&#37;map_name" />
-  <comment key="map start with 1 base, part 2" text="&#37;map_name作为一个战略要冲，是我们必须占领的重要区块" />
-  <comment key="map start with 1 base, part 3" text="我们的先锋部队于&#37;base_name突入区块，敌人不可能意识不到这一点" />
-  <comment key="map start with 1 base, part 3" text="工团突击小组于&#37;base_name突入区块，敌人估计很快就会反应过来" />
-  <comment key="map start with 1 base, part 3" text="我们的潜行部队悄无声息的清理了&#37;base_name的敌人，但敌人在定期的无线电对话中很快便会发现端倪" />
-  <comment key="map start with 1 base, part 3" text="惩戒营已经冲开了敌人&#37;base_name的防线，他们伤亡惨重" />
-  <comment key="map start with 1 base, part 3" text="敌人在&#37;base_name似乎没有部署部队，我们的部队已经快速占领了此据点作为跳板" />
-  <comment key="map start with 1 base, capture" text="敌人于&#37;map_name的兵力随时会调动起来，所有人立刻行动，打乱敌人部署，目标是占领此区域" />
-  <comment key="map start with 1 base, capture" text="&#37;map_name的敌人已经被惊动，所有人立刻行动，尽快突破敌军防线，目标是占领此区域" />
-  <comment key="map start with 1 base, capture" text="&#37;map_name的敌军正在伺机而动，所有部队主动出击，在敌人组织起防线之前扩大战果。" />
-  <comment key="map start with 1 base, koth" text="全&#37;map_name的兵力都在试图控制&#37;target_base_name，我们也一样，控制目标地点并做好防御" />
-  <comment key="map start with 1 base, koth" text="&#37;map_name的最重要的地方便是&#37;target_base_name，控制目标地点并做好防御" />
-  <comment key="map start with 1 base, koth" text="&#37;map_name的&#37;target_base_name发现了重要情报，控制目标地点并做好防御，不要让敌人占领那里" />
-  <comment key="map start with 1 base, koth" text="&#37;map_name的&#37;target_base_name已经陷落，但介于其内部的重要生产资料，我们不能付出失去它的代价，夺回这里！" />
-  <comment key="side objectives" text="所有班组可以执行突袭任务，对敌人的后方进行干扰和破坏" />
-  <comment key="loot objective" text="敌方的货运卡车随时可能经过此区域，做好准备拦停它！" />
-  <comment key="radio tower or truck objective" text="我们的特遣小组确认此地区存在敌人的主要通讯设备或干扰设备，但我们随后失去了和他们的联系" />
-  <comment key="aa objective" text="敌人在此区域拥有防空设施，摧毁它，不要让他干扰到我们的作战体系" />
-  <comment key="map start, ending" text="为了工团！同志们，我们不会失败！" />
-  <comment key="map start, ending" text="为了工团！同志们，干掉工团的敌人！" />
-  <comment key="map start, ending" text="为了工团！进攻！" />
-  <comment key="map start with more bases, part 1" text="同志，这里是区块前哨观察所，谢天谢地，你们可算到了" />
-  <comment key="map start with more bases, part 2" text="我们已经设法守住了我们的前线，目前有&#37;number_of_bases个据点在我们的控制范围内" />
+  <comment key="map start with 1 base, part 1" text="*战栗的气息自地表深处扎根于你的脏器*" />
+  <comment key="map start with 1 base, part 1" text="*癫狂的精神自地下的脉络涌至你的吸间*" />
+  <comment key="map start with 1 base, part 1" text="*空间扭曲磨碎，鼓震的气息传递至脑内*" />
+  <comment key="map start with 1 base, part 1" text="*大地颤抖，树木迸发，目光诉说着真言*" />
+  <comment key="map start with 1 base, part 2" text="种子宿居在&#37;map_name所有人的血管里，终将穿透皮肤" />
+  <comment key="map start with 1 base, part 2" text="世界死凝如镜，&#37;map_name反射着林地的愿景" />
+  <comment key="map start with 1 base, part 2" text="林地的渴求源自光，我们拜请这种光笼罩于&#37;map_name" />
+  <comment key="map start with 1 base, part 2" text="&#37;map_name的影响逐渐破碎，你感到你近乎崩解" />
+  <comment key="map start with 1 base, part 2" text="林地渴望扩张，&#37;map_name已被剥夺至尽" />
+  <comment key="map start with 1 base, part 3" text="光坠落于&#37;base_name，但异教仍看守门关" />
+  <comment key="map start with 1 base, part 3" text="光显现于&#37;base_name地底，但荆棘仍遍布岩石之门" />
+  <comment key="map start with 1 base, part 3" text="门扉爆裂开来，光吞噬了&#37;base_name，而荆棘仍屯守暗处" />
+  <comment key="map start with 1 base, part 3" text="云朵分离，地表颤动，光闪耀于&#37;base_name，腐败却伺机反扑，吞噬它的尸骸" />
+  <comment key="map start with 1 base, part 3" text="光自树荫中来，往根下去，&#37;base_name林地的影子逐渐扩张" />
+  <comment key="map start with 1 base, capture" text="*你逐渐缓过神来*" />
+  <comment key="map start with 1 base, koth" text="*你逐渐缓过神来，你知道你要夺下&#37;target_base_name*" />
+  <comment key="side objectives" text="*异教徒的运动逻辑难以断言，林地请求我们前往查看" />
+  <comment key="loot objective" text="*你感受到奇特的震荡，异教徒的运输车会经过此处，如林地所言" />
+  <comment key="radio tower or truck objective" text="*你感受到电流和波的涌动，异教徒的通讯正在暗中作乱" />
+  <comment key="aa objective" text="*异教徒的炮火笼罩着天空，林地要求摧毁敌人的系统" />
+  <comment key="map start, ending" text="为了林地！我们不会失败！" />
+  <comment key="map start, ending" text="为了林地！" />
+  <comment key="map start, ending" text="为了林地！进攻！" />
+  <comment key="map start with more bases, part 1" text="*林地的控制正在逐渐减弱，你感到异常不适" />
+  <comment key="map start with more bases, part 2" text="*只有&#37;number_of_bases个区域仍旧处在林地的影响之内" />
   <comment key="map start with completed map" text="这里是区块前哨观察所，欢迎回来&#37;player_name，为了工团" />
   <comment key="map advance, held by enemy" text="前线小队已经成功突入&#37;map_name，此地正在被&#37;faction_name控制" />
   <comment key="map advance, held by enemy" text="潜行小组已经成功潜入&#37;map_name，此地正在被&#37;faction_name控制" />
@@ -725,18 +720,18 @@
   <comment key="Final mission II, phase 4, part 2" text="为了工团！同志们，冲锋！" />
 
   <!-- vehicle delivery objective -->
-  <comment key="vehicle delivered" text="&#37;vehicle_name已经送到，干得漂亮！" />
-  <comment key="vehicle objective cancelled, vehicle destroyed" text="敌军&#37;vehicle_name已被我方部队销毁" />
-  <comment key="vehicle objective instruction" text="目标最后确认于&#37;location，敌&#37;faction_name的&#37;vehicle_name，试着拦停它！" />
+  <comment key="vehicle delivered" text="*你终于将&#37;vehicle_name送达目的地，你倍感欢喜" />
+  <comment key="vehicle objective cancelled, vehicle destroyed" text="异教徒的&#37;vehicle_name已被销毁" />
+  <comment key="vehicle objective instruction" text="正如林地所言，&#37;faction_name的&#37;vehicle_name于&#37;location靠近，而青苔正在指引你前往目的地" />
   <comment key="resource out of stock" text="&刚刚最后一把#37;resource_name已经用没了" />
   <comment key="resource added in stock" text="&#37;resource_name到货了" />
-  <comment key="overtime, we are winning" text="坚持下去——看起来敌人的人力快要见底了！" />
-  <comment key="overtime, we are losing" text="这可能是我们最后的机会，我们的部队不多了！" />
+  <comment key="overtime, we are winning" text="*林地的影响逐渐扩大，你能感到敌人似乎正打算最后奋力一搏" />
+  <comment key="overtime, we are losing" text="*林地的影响正在减弱，时间不在我们这边" />
   <!-- item delivery objective; briefcases -->
   <comment key="item delivered" text="完成目标" />
   <comment key="item objective instruction" text="" />
   <comment key="item objective map text" text="" />
-  <comment key="item objective thanks" text="哦，同志，让我们看看这里面有什么" />
+  <comment key="item objective thanks" text="*你感到欢喜，不知内部为何物" />
 
   <!-- enemy item delivery objective; weapons -->
   <comment key="enemy item objective instruction" text="" />
@@ -779,7 +774,7 @@
   <comment key="squad_equipment_kit, equip" text="我可以用这个来给附近的士兵装备护甲！" /> 
   <comment key="squad_equipment_kit, done" text="护甲发放完毕！" />   
 <!-- 1.91 -->
-  <comment key="Press SPACE to continue!" text="你刚刚为工团牺牲了，揍 &#37;control_jump键 重新部署" />
+  <comment key="Press SPACE to continue!" text="林地的影响从你的尸骸中逝去，揍 &#37;control_jump键 重新部署" />
   <!-- 1.94 --> 
  <comment key="Turn back! Mine fields ahead!" text="前有雷区！立即返回！" />
 </character>

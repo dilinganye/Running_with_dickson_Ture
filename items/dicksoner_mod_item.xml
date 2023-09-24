@@ -16,9 +16,19 @@
 	<carry_item file="common_armor_mk_s.carry_item" />
 	<carry_item file="sniper_armor.carry_item" />
 	
-	<!-- 联邦特种部队-->
+	<!-- 联邦部队-->
+	<carry_item file="B_M_armor_ranger.carry_item" />
+	<carry_item file="B_M_armor_assault.carry_item" />
 	<carry_item file="B_M_spz_armor_shooter.carry_item" />
 	<carry_item file="B_M_spz_armor_sniper.carry_item" />
 	<carry_item file="B_M_spz_armor_sentry.carry_item" />
+
+	<!-- 邪教部队-->
+	<carry_item file="G_M_spw_armor_normal.carry_item" />
+
+	<!-- 工团部队-->
+	<carry_item file="Y_M_166_armor_normal.carry_item" />
+	<carry_item file="Y_M_166_armor_sentry.carry_item" />
+	<carry_item file="Y_M_166_armor_officer.carry_item" />
 </carry_items>
 

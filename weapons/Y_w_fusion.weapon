@@ -10,14 +10,15 @@
 	stance_accuracy_rate="1.15"
 	magazine_size="5" 
 	can_shoot_standing="0" 
-	can_shoot_crouching="1" 
+	can_shoot_crouching="0" 
 	suppressed="0" 
 	name="Fusion" 
 	class="4" 
 	burst_shots="1" 
 	projectiles_per_shot="2" 
 	reload_one_at_a_time="0" 
-	sight_range_modifier="1.65" 
+	sight_range_modifier="1.60" 
+	ai_sight_range_modifier="1.0"
 	projectile_speed="160.0" 
 	barrel_offset="0.65" />	
 	
@@ -40,7 +41,7 @@
 	<model filename="Y_w_fusion.xml" />
 	
 	<hud_icon filename="hud_y_w_fusion.png" />
-	<commonness value="0.01" in_stock="1" can_respawn_with="0" />
+	<commonness value="0.005" in_stock="1" can_respawn_with="0" />
 	<inventory encumbrance="20.0" price="1000" />
 	
 	<weak_hand_hold offset="0.5" />
@@ -60,6 +61,6 @@
 	<stance state_key="prone_moving" accuracy="1.0" />
 	<stance state_key="over_wall" accuracy="1.0" />
 	
-	<modifier class="speed" value="-0.175" />
+	<modifier class="speed" value="-0.185" />
 	
 </weapon>

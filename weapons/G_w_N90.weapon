@@ -4,8 +4,8 @@
     <specification 
 	retrigger_time="0.0985" 
 	accuracy_factor="0.915" 
-	sustained_fire_grow_step="0.17" 
-	sustained_fire_diminish_rate="0.903"
+	sustained_fire_grow_step="0.172" 
+	sustained_fire_diminish_rate="0.890"
 	stance_accuracy_rate="2.0"
 	magazine_size="80" 
 	can_shoot_standing="0" 
@@ -14,7 +14,9 @@
   name="N90-Split MG" 
   class="0" 
   barrel_offset="0.5" 
-  projectile_speed="100.0" />
+  projectile_speed="100.0"
+	cooldown_start="0.7"
+	cooldown_end="0.5" />
 
 	<stance state_key="running" accuracy="0.6" />
 	<stance state_key="walking" accuracy="0.45" />

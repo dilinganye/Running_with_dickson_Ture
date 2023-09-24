@@ -17,6 +17,7 @@
 	projectile_speed="110.0" 
 	barrel_offset="0.6" 
 	projectiles_per_shot="1"
+    ai_sight_range_modifier="1.1"
 	/>
 
 	<stance state_key="crouching" accuracy="0.85" />
@@ -46,7 +47,7 @@
 	<inventory encumbrance="15.0" price="1500.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
-	<capacity value="1" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="1.0" />
 	
 	<projectile file="bullet_escort.projectile">
 		<result 

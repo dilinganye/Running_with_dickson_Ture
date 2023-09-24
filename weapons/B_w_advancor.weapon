@@ -13,6 +13,7 @@
     burst_shots="1"
     reload_one_at_a_time="0" 
     sight_range_modifier="1.0" 
+    ai_sight_range_modifier="0.8"
     projectile_speed="95.0" 
     projectiles_per_shot="5" />
     <animation key="recoil" ref="27" />
@@ -28,7 +29,7 @@
     <model filename="B_w_advancor.xml" />
 
     <hud_icon filename="hud_b_w_advancor.png" />
-    <commonness value="0.2" can_respawn_with="1" in_stock="1" />
+    <commonness value="0.02" can_respawn_with="1" in_stock="1" />
     <inventory encumbrance="10.0" price="70.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />

@@ -4,14 +4,14 @@
 	<tag name="nrf" />
 
 	<specification 
-	retrigger_time="-1.0" 
+	retrigger_time="-0.8" 
 	accuracy_factor="0.99" 
 	sustained_fire_grow_step="3.5" 
 	stance_accuracy_rate="1.75"
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0"
-	name="Hellk Bayonet" 
+	name="Hellk-Bayonet" 
 	class="2" 
 	reload_one_at_a_time="0" 
 	projectile_speed="135.0"
@@ -20,6 +20,8 @@
 	sight_range_modifier="1.1"
     stab_enabled="1"
     stab_range="3.5"
+	cooldown_start="0.4"
+	cooldown_end="0.5"
 	/>
 
 	<next_in_chain key="Y_w_hellk.weapon" share_ammo="1" />
@@ -57,7 +59,7 @@
 	<projectile file="bullet_yellow.projectile">
 		<result
 		class="hit"
-		kill_probability="1.125"
+		kill_probability="2.125"
 		kill_decay_start_time="0.5"
 		kill_decay_end_time="0.6"
 		/>

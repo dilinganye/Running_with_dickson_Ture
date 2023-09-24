@@ -20,6 +20,7 @@
 		<weapon key='B_w2_crack.weapon'/>
 	<!-- 投掷物 -->
 		<projectile key="B_w3_teg.projectile" />
+		<projectile key="B_w3_Sticky_explosive.projectile" />
 
 	<!-- 电台支援 -->
 		<call key="artillery1b.call" />
@@ -34,9 +35,9 @@
 		<call key="paratroopers_spz_huge_reinforce.call" />
 		<call key="paratroopers_test.call" />
 	
-	<!-- 测试护甲-Will del at last -->
+	<!-- 测试护甲-Will del at last 
 		<carry_item key="B_M_spz_armor_sentry.carry_item"/>
-		<carry_item key="B_M_spz_armor_shooter.carry_item"/>
+		<carry_item key="B_M_spz_armor_shooter.carry_item"/>-->
 
 	<!-- 测试&暂不启用支援 
 

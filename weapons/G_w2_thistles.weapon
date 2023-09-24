@@ -48,7 +48,7 @@
 
     <hud_icon filename="hud_g_w2_thistles.png" />
     <commonness value="0.0014" can_respawn_with="1" in_stock="1" />
-    <inventory encumbrance="5.0" price="10.0" />
+    <inventory encumbrance="5.0" price="1.0" />
 
     <projectiles_per_shot value="1" />
     <weak_hand_hold offset="0.1" />

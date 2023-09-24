@@ -1,50 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
 	<!-- /Framework--------------- -->
+	<!-- MK1--------------- -->
+	<model filename="B_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1.carry_item"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+	<model filename="B_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1_1"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+	<model filename="B_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1_2"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+	<model filename="B_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1_3"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
 	<!-- MK2--------------- -->
-
+	<model filename="B_M_Paratroops.xml">
+		<requirement class="carry_item" slot="1" key="MK_2.carry_item"/>
+	</model>   
+	<model filename="B_M_Paratroops.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_1"/>
+	</model>   
+	<model filename="B_M_Paratroops.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_2"/>
+	</model>   
+	<model filename="B_M_Paratroops.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_3"/>
+	</model>   
+	<model filename="B_M_Paratroops.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_4"/>
+	</model>   
 	<!-- MK3--------------- -->
-	<model filename="B_M_Sheilder.xml">
+	<model filename="B_M_Lieutenant.xml">
 		<requirement class="carry_item" slot="1" key="MK_3.carry_item"/>
 	</model>   
-	<model filename="B_M_Sheilder.xml">
+	<model filename="B_M_Lieutenant.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_1"/>
 	</model>   
-	<model filename="B_M_Sheilder.xml">
+	<model filename="B_M_Lieutenant.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_2"/>
 	</model>   
-	<model filename="B_M_Sheilder.xml">
+	<model filename="B_M_Lieutenant.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_3"/>
+	</model>   
+	<model filename="B_M_Lieutenant.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_4"/>
+	</model>   
+	<model filename="B_M_Lieutenant.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_5"/>
 	</model>   
 
 	<!-- MK3_alt--------------- -->
-	<model filename="B_M_Grenadier.xml">
+	<model filename="B_M_Lieutenant_2.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_alt.carry_item"/>
 	</model>   
-	<model filename="B_M_Grenadier.xml">
+	<model filename="B_M_Lieutenant_2.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_1_alt"/>
 	</model>   
-	<model filename="B_M_Grenadier.xml">
+	<model filename="B_M_Lieutenant_2.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_2_alt"/>
 	</model>   
-	<model filename="B_M_Grenadier.xml">
+	<model filename="B_M_Lieutenant_2.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_3_alt"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_4_alt"/>
+	</model>   
+	<model filename="B_M_Lieutenant_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_5_alt"/>
 	</model>   
 
 	<!-- MKX--------------- -->
-	<model filename="B_M_Lieutenant_2.xml">
+	<model filename="B_M_Star_X.xml">
 		<requirement class="carry_item" slot="1" key="MK_X.carry_item"/>
 	</model>   
-	<model filename="B_M_Lieutenant_2.xml">
+	<model filename="B_M_Star_X.xml">
 		<requirement class="carry_item" slot="1" key="MK_X_1"/>
 	</model>   
-	<model filename="B_M_Lieutenant_2.xml">
+	<model filename="B_M_Star_X.xml">
 		<requirement class="carry_item" slot="1" key="MK_X_2"/>
 	</model>   
-	<model filename="B_M_Lieutenant_2.xml">
+	<model filename="B_M_Star_X.xml">
 		<requirement class="carry_item" slot="1" key="MK_X_3"/>
 	</model>   
-	<model filename="B_M_Lieutenant_2.xml">
+	<model filename="B_M_Star_X.xml">
 		<requirement class="carry_item" slot="1" key="MK_X_4"/>
 	</model>   
 
@@ -115,5 +158,58 @@
 	<model filename="B_M_SpecialZone_Radio.xml">
 		<requirement class="carry_item" slot="1" key="MK_Test4_4"/>
 	</model>   
+	
+
+	<!-- MKS--------------- -->
+	<model filename="B_M_Vanguard.xml">
+		<requirement class="carry_item" slot="1" key="MK_s.carry_item"/>
+	</model>   
+	<model filename="B_M_Vanguard.xml">
+		<requirement class="carry_item" slot="1" key="MK_s_1"/>
+	</model>   
+	<model filename="B_M_Vanguard.xml">
+		<requirement class="carry_item" slot="1" key="MK_s_2"/>
+	</model>   
+	
+	<!-- support_sentry--------------- -->
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry.carry_item"/>
+	</model>   
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_1"/>
+	</model>   
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_2"/>
+	</model>   
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_3"/>
+	</model>   
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_4"/>
+	</model>   
+	<model filename="B_M_EOD_Colonel.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_5"/>
+	</model>   
+	
+	<!-- special_type_sentry--------------- -->
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry.carry_item"/>
+	</model>   
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_1"/>
+	</model>   
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_2"/>
+	</model>   
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_3"/>
+	</model>   
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_4"/>
+	</model>   
+	<model filename="B_M_EOD_s.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_5"/>
+	</model>   
+
 	
 </models>

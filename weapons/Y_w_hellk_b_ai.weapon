@@ -11,7 +11,7 @@
 	magazine_size="5" 
 	can_shoot_standing="1" 
 	suppressed="0"
-	name="Hellk Bayonet" 
+	name="Hellk-Bayonet" 
 	class="2" 
 	reload_one_at_a_time="0" 
 	projectile_speed="135.0"

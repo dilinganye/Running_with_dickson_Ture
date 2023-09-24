@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <weapon file="base_primary_rare.weapon" key="B_w_SpecialZone_Sentence.weapon">
     <tag name="cqb" />
+    <tag name="sg" />
     <specification retrigger_time="-1.0" 
     accuracy_factor="0.8" 
     sustained_fire_grow_step="8.0" 
@@ -8,7 +9,7 @@
     magazine_size="10" 
     can_shoot_standing="1" 
     suppressed="0" 
-    name="UTS-15" 
+    name="Sentence" 
     class="1" 
     reload_one_at_a_time="1" 
     sight_range_modifier="1.0" 
@@ -26,10 +27,10 @@
 
     <hud_icon filename="hud_b_w_SpecialZone_Sentence.png" />
     <commonness value="0.004" can_respawn_with="0" in_stock="1" />
-    <inventory encumbrance="10.0" price="20.0" />
+    <inventory encumbrance="10.0" price="2000.0" />
     
   	<capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="1" source="rank" source_value="0.25" />    
+	<capacity value="1" source="rank" source_value="1.0" />
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet_escort.projectile">

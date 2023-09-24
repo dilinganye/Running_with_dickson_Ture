@@ -6,18 +6,27 @@
 		<weapon key='Y_w_hellk.weapon'/>
 		<weapon key='Y_w_capsize.weapon'/>
 		<weapon key="Y_w_fillpud.weapon" />
-		<weapon key="Y_w_trenchor.weapon" />
 		<weapon key="Y_w_fusion.weapon" />
 
-	<!-- 副手 -->
-		<!--weapon key="Y_w2_gbc.weapon" /  -->
+	<!-- 正式版从军械库移除 -->
+		<weapon key="Y_w_trenchor.weapon" />
+		<weapon key="Y_w_Group166Chunk_Harvest.weapon" />
+		<weapon key="Y_w_Group166Chunk_Lord.weapon" />
+		<weapon key="Y_w_Group166Chunk_Construct.weapon" />
+
+	<!-- 副手 
+		<!--weapon key="Y_w2_gbc.weapon" / 
 		<weapon key="Y_w2_warn.weapon" />
-		<weapon key='Y_w_arbitor.weapon'/>
+		<weapon key='Y_w_arbitor.weapon'/>-->
 
 	<!-- 投掷物 -->
+		<projectile key="Y_w3_adopt.projectile" />
+		<projectile key="Y_w3_big_adopt.projectile" />
 
 	<!-- 电台支援 -->
 		<call key="paratroopers1b.call" />
 		<call key="paratroopers2b.call" />
+
+		<call key="paratroopers_test_166.call" />
 	
 </resources>

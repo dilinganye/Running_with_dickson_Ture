@@ -7,9 +7,14 @@
   <weapon file="G_w_N90.weapon" />
   <weapon file="G_w_P7.weapon" />
   <weapon file="G_w_T81.weapon" />
+  <weapon file="G_w_T81_ai.weapon" />
   <weapon file="G_w2_thistles.weapon" />
   <weapon file="G_w2_thorns.weapon" />
+  <weapon file="G_w2_thorns_ai.weapon" />
   <weapon file="G_w2_watcher.weapon" />
+  <weapon file="G_w_SporerWing_Garnosned.weapon" />
+  <weapon file="G_w_SporerWing_Survey.weapon" />
+  <weapon file="G_w_SporerWing_Rhizoden.weapon" />
 
   
   

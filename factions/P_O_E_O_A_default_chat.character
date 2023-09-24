@@ -125,9 +125,9 @@
 	<comment key="Hmm, no signal" text="...通讯断了" />
 	<comment key="cancel radio call" text="完毕" />
 	<comment key="cancel radio call" text="结束通话" />
-	<comment key="initiate radio call" text="这里是413自行联合军团，&#37;rank_name，听到请回答！" />
-	<comment key="initiate radio call" text="这里是413自行联合军团，&#37;rank_name，我需要支援调度！" />
-	<comment key="initiate radio call" text="这里是413自行联合军团，&#37;rank_name，能听得到吗！" />
+	<comment key="initiate radio call" text="这里是413自行联合军团，我的位置需要调度，听到请回答！" />
+	<comment key="initiate radio call" text="这里是413自行联合军团，我需要支援，重复，我需要支援调度！" />
+	<comment key="initiate radio call" text="这里是413自行联合军团，请锁定我的位置，能听得到吗！" />
 	<comment key="commander radio response" text="收到，同志，有什么请求" />
 	<comment key="commander radio response" text="收到，需要什么支援，同志" />
 	<comment key="commander radio response" text="收到，同志，请讲" />

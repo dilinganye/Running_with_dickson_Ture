@@ -6,9 +6,9 @@
 	launch_comment="空降兵8人已到达"
   notify_metagame="1"  >
 
-    <round instances="6"
+    <round instances="4"
            instance_class="soldier"
-	   instance_key="default"
+	   instance_key="default_ai"
            instance_spread="10 15 10" 
            common_spread="0 0 0" 
            launch_time="5.0"
@@ -27,9 +27,18 @@
            spawn_time="11.5">
     </round>
 
+    <round instances="2"
+           instance_class="soldier"
+	   instance_key="assault"
+           instance_spread="2 2 2" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.5">
+    </round>
+
     <hud_icon filename="hud_paratroopers1.png" />
     <capacity value="0" source="rank" source_value="0.0" />
-    <capacity value="100" source="rank" source_value="0.2" />
+    <capacity value="100" source="rank" source_value="0.4" />
     <inventory encumbrance="0.0" price="500.0" />
 
 </call>

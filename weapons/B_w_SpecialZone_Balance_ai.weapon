@@ -49,7 +49,7 @@
 	<inventory encumbrance="15.0" price="1500.0" />
 	
 	<capacity value="0" source="rank" source_value="0.0" />
-	<capacity value="1" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="1.0" />
 	
 	<projectile file="bullet_escort.projectile">
 		<result 

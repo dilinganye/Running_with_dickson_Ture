@@ -11,51 +11,78 @@
 	radio_queue_size="3"
 	supporter_high_skinpack_xp="100.0">
 	
-	<rank xp="0.0" name="porter">
-		<hud_icon filename="hud_rank0.png" />
+	<rank xp="0.0" name="Porter">
+		<hud_icon filename="hud_rank0_WTTP.png" />
 	</rank>
-	<rank xp="0.05" name="adherent">
-		<hud_icon filename="hud_rank1.png" />
+	<rank xp="0.05" name="Adherent">
+		<hud_icon filename="hud_rank1_WTTP.png" />
 	</rank>
-	<rank xp="0.1" name="faithful">
-		<hud_icon filename="hud_rank2.png" />
+	<rank xp="0.1" name="Faithful">
+		<hud_icon filename="hud_rank2_WTTP.png" />
 	</rank>
-	<rank xp="0.2" name="friar">
-		<hud_icon filename="hud_rank3.png" />
+	<rank xp="0.2" name="Friar">
+		<hud_icon filename="hud_rank3_WTTP.png" />
 	</rank>
-	<rank xp="0.3" name="lushfriar">
-		<hud_icon filename="hud_rank4.png" />
+	<rank xp="0.3" name="Lushfriar">
+		<hud_icon filename="hud_rank4_WTTP.png" />
 	</rank>
-	<rank xp="0.4" name="caretaker">
-		<hud_icon filename="hud_rank5.png" />
+	<rank xp="0.4" name="Caretaker">
+		<hud_icon filename="hud_rank5_WTTP.png" />
 	</rank>
-	<rank xp="0.6" name="tree priest">
-		<hud_icon filename="hud_rank6.png" />
+	<rank xp="0.6" name="Guard Presbyter">
+		<hud_icon filename="hud_rank6_WTTP.png" />
 	</rank>
-	<rank xp="0.8" name="foliage bishop">
-		<hud_icon filename="hud_rank7.png" />
+	<rank xp="0.8" name="Tree Priest">
+		<hud_icon filename="hud_rank7_WTTP.png" />
 	</rank>
-	<rank xp="1.0" name="crown bishop">
-		<hud_icon filename="hud_rank8.png" />
+	<rank xp="1.0" name="Foliage Bishop">
+		<hud_icon filename="hud_rank8_WTTP.png" />
 	</rank>
-	<rank xp="1.2" name="archbishop">
-		<hud_icon filename="hud_rank9.png" />
+	<rank xp="1.2" name="Crown Bishop">
+		<hud_icon filename="hud_rank9_WTTP.png" />
 	</rank>
-	<rank xp="1.4" name="dim archbishop">
-		<hud_icon filename="hud_rank10.png" />
+	<rank xp="1.4" name="Archbishop">
+		<hud_icon filename="hud_rank10_WTTP.png" />
 	</rank>
-	<rank xp="2.0" name="pope">
-		<hud_icon filename="hud_rank11.png" />
+	<rank xp="2.0" name="Dim Archbishop">
+		<hud_icon filename="hud_rank11_WTTP.png" />
 	</rank>
-	<rank xp="5.0" name="darkwood pope">
-		<hud_icon filename="hud_rank12.png" />
+	<rank xp="5.0" name="Pope">
+		<hud_icon filename="hud_rank12_WTTP.png" />
 	</rank>
-	<rank xp="10.0" name="gtee henchman">
-		<hud_icon filename="hud_rank13.png" />
+	<rank xp="10.0" name="Darkwood Pope">
+		<hud_icon filename="hud_rank13_WTTP.png" />
 	</rank>
-	<rank xp="20.0" name="gtee assistant">
-		<hud_icon filename="hud_rank14.png" />
+	<rank xp="20.0" name="Gtee Guard">
+		<hud_icon filename="hud_rank14_WTTP.png" />
 	</rank>
+	<rank xp="50.0" name="Gtee Executioner">
+		<hud_icon filename="hud_rank15_WTTP.png" />
+	</rank>
+	<rank xp="100.0" name="Call of the Gtee">
+		<hud_icon filename="hud_rank16_WTTP.png" />
+	</rank>
+	<rank xp="200.0" name="Call of the Gtee (II)">
+		<hud_icon filename="hud_rank16_2_WTTP.png" />
+	</rank>
+	<rank xp="300.0" name="Call of the Gtee (III)">
+		<hud_icon filename="hud_rank16_3_WTTP.png" />
+	</rank>
+	<rank xp="400.0" name="Call of the Gtee (IV)">
+		<hud_icon filename="hud_rank16_4_WTTP.png" />
+	</rank>
+	<rank xp="500.0" name="Call of the Gtee (V)">
+		<hud_icon filename="hud_rank16_5_WTTP.png" />
+	</rank>
+	<rank xp="600.0" name="Gtee Missionary">
+		<hud_icon filename="hud_rank18_WTTP.png" />
+	</rank>  
+	<rank xp="800.0" name="Gtee Henchman">
+		<hud_icon filename="hud_rank19_WTTP.png" />
+	</rank> 
+	<rank xp="1000.0" name="Gtee Assistant">
+		<hud_icon filename="hud_rank17_WTTP.png" />
+	</rank>  
 	
 
 	<!-- -------------- -->
@@ -138,15 +165,19 @@
 	
 	
 	<!-- ----- -->
-	<!-- Medic -->
+	<!-- T1 Medic -->
 	<soldier name="b_medic" spawn_score="0.1">
 		<character filename="WTTP_default_female.character" />
 		<ai filename="medic.ai" />
 		<model filename="G_M_Medic.xml" />
 		<resources file="WTTP_normalAi_common.resources" />
-		<resources clear_weapons="0" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+			<weapon key="G_w_T81_ai.weapon" enabled="1" />
+			<weapon key="G_w_N21.weapon" enabled="1"/>
+			<weapon key="G_w_N47.weapon" enabled="1"/>
+			<weapon key="G_w2_thorns_ai.weapon" enabled="1"/>
 			<!-- secondaries -->
-			<weapon key="medikit_ai_2.weapon" enabled="1" />
+			<weapon key="medikit_ai_2.weapon" enabled="1"/>
 			<!-- wearables -->
 			<carry_item key="MK_1.carry_item" enabled="1" />
 			<!-- backpack -->
@@ -167,11 +198,11 @@
 		</attribute_config>
 	</soldier>
 	<!-- ---- -->
-	<!-- EOD -->
-	<soldier name="eod" spawn_score="0.03">
+	<!-- T2 EOD -->
+	<soldier name="eod" spawn_score="0.001">
 		<character filename="WTTP_default_male.character" />
 		<ai filename="eod.ai" />
-		<model filename="G_M_Sheild.xml" />
+		<model filename="G_M_Bishop_exo.xml" />
 		<resources file="WTTP_normalAi_common.resources" />
 		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
 			<weapon key="G_w_N57.weapon" enabled="1" />
@@ -179,42 +210,6 @@
 			<weapon key="G_w2_watcher.weapon" enabled="1" />
 			<!-- wearables -->
 			<carry_item key="support_sentry.carry_item" enabled="1" />
-			<!-- backpack -->
-			<!--call key="artillery1b.call" /-->	
-		</resources>
-		<item_class_existence_config>
-			<!-- secondaries -->
-			<item_class_existence class="weapon" slot="1" probability="0.75" />
-			<!-- wearables -->
-			<item_class_existence class="carry_item" slot="1" probability="1.0" />
-			<!-- backpack -->
-			<item_class_existence class="carry_item" slot="0" probability="0.01" />
-			<item_class_existence class="grenade" slot="0" probability="1.0" />
-		</item_class_existence_config>
-
-		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.5" max="0.7" />
-			<attribute weight="0.05" min="1.0" max="10.0" />
-		</attribute_config>
-
-		<attribute_config class="rp">
-			<attribute weight="1.0" min="500.0" max="500.0" />
-		</attribute_config>
-
-	</soldier>
-
-	<!-- -------- -->
-	<!-- 特化EOD -->
-	<soldier name="eod_s" spawn_score="0.025">
-		<character filename="WTTP_default_male.character" />
-		<ai filename="eod.ai" />
-		<model filename="G_M_Grenades.xml" />
-		<resources file="WTTP_normalAi_common.resources" />
-		<resources clear_weapons="0" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
-			<!-- secondaries -->
-			<!--weapon key="THIS WILL BE SHEILD.weapon" enabled="1" /-->
-			<!-- wearables -->
-			<carry_item key="special_type_sentry.carry_item" enabled="1" />
 			<!-- backpack -->
 			<call key="paratroopers1b.call" />
 		</resources>
@@ -229,25 +224,59 @@
 		</item_class_existence_config>
 
 		<attribute_config class="xp">
-			<attribute weight="1.0" min="0.5" max="0.7" />
-			<attribute weight="0.05" min="1.0" max="10.0" />
+			<attribute weight="1.0" min="0.8" max="1.2" />
 		</attribute_config>
 
 		<attribute_config class="rp">
-			<attribute weight="1.0" min="500.0" max="500.0" />
+			<attribute weight="1.0" min="1000.0" max="50000.0" />
+		</attribute_config>
+
+	</soldier>
+
+	<!-- -------- -->
+	<!-- T2 特化EOD -->
+	<soldier name="eod_s" spawn_score="0.001">
+		<character filename="WTTP_default_male.character" />
+		<ai filename="eod.ai" />
+		<model filename="G_M_Bishop_leader.xml" />
+		<resources file="WTTP_normalAi_common.resources" />
+		<resources clear_weapons="0" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+			<!-- secondaries -->
+			<!--weapon key="THIS WILL BE SHEILD.weapon" enabled="1" /-->
+			<!-- wearables -->
+			<carry_item key="special_type_sentry.carry_item" enabled="1" />
+			<!-- backpack -->
+			<call key="paratroopers2b.call" />
+		</resources>
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.75" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.01" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.8" max="1.2" />
+		</attribute_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="1000.0" max="50000.0" />
 		</attribute_config>
 
 	</soldier>
 	
 	<!-- ------ -->
-	<!-- 狙击手 =Guards-->
-	<soldier name="sniper" spawn_score="0.06" copy_from="frame_ai">
+	<!-- T2 狙击手 =Guards-->
+	<soldier name="sniper" spawn_score="0.0035" copy_from="frame_ai">
 		<character filename="WTTP_default_female.character" />
 		<ai filename="sniper.ai" />
-		<model filename="G_M_Guards.xml" />
+		<model filename="G_M_Eilte_sniper.xml" />
 		<resources file="WTTP_normalAi_common.resources" />
 		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
-			<weapon key="G_w_T81.weapon" enabled="1" />
+			<weapon key="G_w_T81_ai.weapon" enabled="1" />
 			<weapon key="G_w_P7.weapon" enabled="1" />
 			<!-- secondaries -->
 			<weapon key="G_w2_thorns.weapon" enabled="1" />
@@ -270,17 +299,17 @@
 	</soldier>
 	
 	<!-- -------- -->
-	<!-- 普通 伞兵 -->
-	<soldier name="para" spawn_score="0.07" copy_from="frame_ai">
+	<!-- T2 伞兵 -->
+	<soldier name="para" spawn_score="0.005" copy_from="frame_ai">
 		<character filename="WTTP_default_female.character" />
 		<ai filename="default.ai" />
 		
 		<model filename="G_M_Eilte_normal.xml" />
-		<model filename="G_M_Eilte_sniper.xml" />
+		<!--<model filename="G_M_Guards.xml" />-->
 		
 		<resources file="WTTP_normalAi_common.resources" />
 		<resources clear_weapons="0" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
-			<weapon key="G_w_T81.weapon" enabled="1" />
+			<weapon key="G_w_T81_ai.weapon" enabled="1" />
 			<!-- wearables -->
 			<carry_item key="MK_2.carry_item" enabled="1" />
 			<!-- backpack -->
@@ -292,19 +321,95 @@
 		</attribute_config>
 	</soldier>    
 
+	<!-- --------- -->
+	<!-- T1 突击兵 -->
+	<soldier name="assault" spawn_score="0.07" squad_size_xp_cap="0.5">
+		<character filename="WTTP_default_male.character" />
+		<ai filename="assault.ai" />
+		<model filename="G_M_SporerWing_piousor_3.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="1">
+					<!-- Only Blue Guns -->
+			<weapon key="G_w_N47.weapon" enabled="1"/>
+			<weapon key="G_w2_thorns_ai.weapon" enabled="1"/>
+			<!-- wearables -->
+			<carry_item key="B_M_armor_assault.carry_item" enabled="1" />
+			<!-- backpack -->
+			<projectile key="G_w3_grassform.projectile" enabled="1" />
+		</resources>
+
+		<attribute_config class="xp">
+			<attribute weight="0.4" min="0.6" max="2.0" />
+			<attribute weight="0.6" min="0.05" max="0.25" />
+		</attribute_config>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.75" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.01" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="10.0" max="50.0" />
+		</attribute_config>
+
+	</soldier>
+	
+	<!-- --------- -->
+	<!-- T2 老兵 -->
+	<soldier name="ranger" spawn_score="0.045" squad_size_xp_cap="0.5">
+		<character filename="WTTP_default_male.character" />
+		<ai filename="elite.ai" />
+		<model filename="G_M_SporerWing_piousor.xml" />
+		<model filename="G_M_SporerWing_piousor_2.xml" />
+		<model filename="G_M_SporerWing_piousor_3.xml" />
+		
+		<resources file="WTTP_common.resources" />
+		<resources clear_weapons="0" clear_vehicles="1" clear_carry_items="1" clear_grenades="1">
+					<!-- Only Blue Guns -->
+			
+			<!-- wearables -->
+			<carry_item key="B_M_armor_ranger.carry_item" enabled="1" />
+			<!-- backpack -->
+			<projectile key="G_w3_overseed.projectile" enabled="1" />
+			<call key="paratroopers1b.call" />
+			<call key="paratroopers2b.call" />
+		</resources>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.75" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.01" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		<attribute_config class="xp">
+			<attribute weight="0.7" min="0.5" max="1.2" />
+			<attribute weight="0.3" min="0.8" max="2.0" />
+		</attribute_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="10000.0" max="20000.0" />
+		</attribute_config>
+
+	</soldier>
+	
 	<!-- -------- -->
-	<!-- 普通 精英 -->
-	<soldier name="eilte" spawn_score="0.1" squad_size_xp_cap="1.0" copy_from="frame_ai">
-		<character filename="default_miniboss_male.character" />
+	<!-- T2 精英 -->
+	<soldier name="eilte" spawn_score="0.01" squad_size_xp_cap="1.0" copy_from="frame_ai">
+		<character filename="WTTP_default_male.character" />
 		<ai filename="elite.ai" />
 		<model filename="G_M_Eilte_ranger.xml" />
-		<model filename="G_M_Elite_mkx.xml" />     
 
 		<resources clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
 					<!-- Only Blue Guns -->
-			<weapon key="G_w_T81.weapon" enabled="1" />
-			<weapon key="G_w2_thorns.weapon" enabled="1" />
-			<weapon key="G_w2_watcher.weapon" enabled="1" />
+			<weapon key="G_w_T81_ai.weapon" enabled="1" />
 			<!-- wearables -->
 			<carry_item key="MK_3.carry_item" enabled="1" />
 			<!-- backpack -->
@@ -323,7 +428,48 @@
 		</attribute_config>
 
 	</soldier>
+	
+	<!-- ---————————  T   3  ————————--- -->
 	<!-- ---------- -->
 	<!-- 孢子之翼 -->
-	
+	<soldier name="spw_normal" spawn_score="0.0001" squad_size_xp_cap="0.5">
+					<!-- Will Change to spz character -->
+		<character filename="WTTP_default_female.character" />
+		<ai filename="elite.ai" />
+		<!-- <model filename="WTTP_SporerWing_piousor.model" /> -->
+		<model filename="G_M_SporerWing_piousor.xml" />
+		<model filename="G_M_SporerWing_piousor_2.xml" />
+		<model filename="G_M_SporerWing_piousor_3.xml" />
+
+		<resources clear_weapons="1" clear_vehicles="1" clear_carry_items="1" clear_grenades="0">
+					<!-- Only Blue Guns -->
+		<weapon key="G_w_SporerWing_Survey.weapon" enabled="1" />
+		<weapon key="G_w_SporerWing_Garnosned.weapon" enabled="1" />
+		<weapon key="G_w_SporerWing_Rhizoden.weapon" enabled="1" />
+			<!-- wearables -->
+			<carry_item key="G_M_spw_armor_normal.carry_item" enabled="1" />
+			<!-- backpack -->
+			<!-- <call key="artillery2b.call" />	
+			<call key="paratroopers_spz_radio.call" />
+			<call key="paratroopers_spz_huge_reinforce.call" /> -->
+		</resources>
+
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.75" />
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.01" />
+			<item_class_existence class="grenade" slot="0" probability="1.0" />
+		</item_class_existence_config>
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="1.0" max="5.0" />
+		</attribute_config>
+
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="30000.0" max="80000.0" />
+		</attribute_config>
+
+	</soldier>
 </faction>

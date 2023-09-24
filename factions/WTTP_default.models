@@ -1,46 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
 	<!-- -------------------------- -->
+	<!-- MK1--------------- -->
+	<model filename="G_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1.carry_item"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+	<model filename="G_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1_1"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+	<model filename="G_M_Medic.xml">
+		<requirement class="carry_item" slot="1" key="MK_1_2"/>
+		<requirement class="weapon" slot="1" key="medikit_ai_2.weapon"/>
+	</model>   
+
 	<!-- MK2--------------- -->
-	<model filename="G_M_Guards.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_2.carry_item"/>
 	</model>   
-	<model filename="G_M_Guards.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_2_1"/>
 	</model>   
-	<model filename="G_M_Guards.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_2_2"/>
 	</model>   
-	<model filename="G_M_Guards.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_2_3"/>
+	</model>   
+	<model filename="G_M_Eilte_normal.xml">
+		<requirement class="carry_item" slot="1" key="MK_2_4"/>
 	</model>   
 
 	<!-- MK3--------------- -->
-	<model filename="G_M_Sheild.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_3.carry_item"/>
 	</model>   
-	<model filename="G_M_Sheild.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_1"/>
 	</model>   
-	<model filename="G_M_Sheild.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_2"/>
 	</model>   
-	<model filename="G_M_Sheild.xml">
+	<model filename="G_M_Eilte_normal.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_3"/>
+	</model>   
+	<model filename="G_M_Eilte_normal.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_4"/>
+	</model>   
+	<model filename="G_M_Eilte_normal.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_5"/>
 	</model>   
 
 	<!-- MK3_alt--------------- -->
-	<model filename="G_M_Grenades.xml">
+	<model filename="G_M_Eilte_ranger.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_alt.carry_item"/>
 	</model>   
-	<model filename="G_M_Grenades.xml">
+	<model filename="G_M_Eilte_ranger.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_1_alt"/>
 	</model>   
-	<model filename="G_M_Grenades.xml">
+	<model filename="G_M_Eilte_ranger.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_2_alt"/>
 	</model>   
-	<model filename="G_M_Grenades.xml">
+	<model filename="G_M_Eilte_ranger.xml">
 		<requirement class="carry_item" slot="1" key="MK_3_3_alt"/>
+	</model>   
+	<model filename="G_M_Eilte_ranger.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_4_alt"/>
+	</model>   
+	<model filename="G_M_Eilte_ranger.xml">
+		<requirement class="carry_item" slot="1" key="MK_3_5_alt"/>
 	</model>   
 
 	<!-- MKX--------------- -->
@@ -60,6 +89,109 @@
 		<requirement class="carry_item" slot="1" key="MK_X_4"/>
 	</model>   
 	
+
+	<!-- MKS--------------- -->
+	<model filename="G_M_Eilte_sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_s.carry_item"/>
+	</model>   
+	<model filename="G_M_Eilte_sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_s_1"/>
+	</model>   
+	<model filename="G_M_Eilte_sniper.xml">
+		<requirement class="carry_item" slot="1" key="MK_s_2"/>
+	</model>   
+	
+	<!-- support_sentry--------------- -->
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry.carry_item"/>
+	</model>   
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_1"/>
+	</model>   
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_2"/>
+	</model>   
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_3"/>
+	</model>   
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_4"/>
+	</model>   
+	<model filename="G_M_Bishop_exo.xml">
+		<requirement class="carry_item" slot="1" key="support_sentry_5"/>
+	</model>   
+	
+	<!-- special_type_sentry--------------- -->
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry.carry_item"/>
+	</model>   
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_1"/>
+	</model>   
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_2"/>
+	</model>   
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_3"/>
+	</model>   
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_4"/>
+	</model>   
+	<model filename="G_M_Bishop_leader.xml">
+		<requirement class="carry_item" slot="1" key="special_type_sentry_5"/>
+	</model>   
+
+	<!-- MKTest--------------- -->
+	<model filename="G_M_SporerWing_piousor.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test.carry_item"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_1"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_2"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_3"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test_4"/>
+	</model>   
+
+	<!-- MKTest2--------------- -->
+	<model filename="G_M_SporerWing_piousor_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2.carry_item"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_1"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_2"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_3"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_2.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test2_4"/>
+	</model>   
+
+	<!-- MKTest3--------------- -->
+	<model filename="G_M_SporerWing_piousor_3.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3.carry_item"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_3.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_1"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_3.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_2"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_3.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_3"/>
+	</model>   
+	<model filename="G_M_SporerWing_piousor_3.xml">
+		<requirement class="carry_item" slot="1" key="MK_Test3_4"/>
+	</model>   
+
 	
 	
 </models>

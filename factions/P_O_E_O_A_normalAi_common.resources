@@ -11,12 +11,13 @@
 	<!-- 副手 -->
 
 	<!-- 投掷物 -->
-	<!--projectile key="B_w3_teg.projectile" --/>
+		<projectile key="Y_w3_adopt.projectile" />
+		<projectile key="Y_w3_big_adopt.projectile" />
+
 	<!-- 护甲-->
 	<carry_item key="MK_0.carry_item" />
 	<carry_item key="MK_1.carry_item" />
 	<carry_item key="MK_2.carry_item" />
-	<carry_item key="MK_3.carry_item" />
 	 
 
 	<!-- 电台支援 -->

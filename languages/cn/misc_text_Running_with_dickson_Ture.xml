@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translation>
+<!-- ——联邦—— -->
+	<!-- —联邦军衔— -->
+	<text key="Private" text="列兵" />
+	<text key="Private 1st Class" text="上等兵" />
+	<text key="Corporal" text="下士" />
+	<text key="Sergeant" text="中士" />
+	<text key="Staff Sergeant" text="上士" />
+	<text key="Staff Sergeant 1st Class" text="一级上士" />
+	<text key="2nd Lieutenant" text="少尉" />
+	<text key="Lieutenant" text="中尉" />
+	<text key="Captain" text="上尉" />
+	<text key="Major" text="少校" />
+	<text key="Lieutenant Colonel" text="中校" />
+	<text key="Colonel" text="上校" />
+	<text key="Brigadier General" text="准将" />
+	<text key="Major General" text="少将" />
+	<text key="Lieutenant General" text="中将" />
+	<text key="General" text="上将" />
+	<text key="General of the Army" text="一星上将" />
+	<text key="General of the Army (II)" text="二星上将" />
+	<text key="General of the Army (III)" text="三星上将" />
+	<text key="General of the Army (IV)" text="四星上将" />
+	<text key="General of the Army (V)" text="五星上将" />
+	<text key="Field Marshal" text="陆军元帅" />
+	<text key="Vice President" text="副总统" />
+	<text key="President" text="大总统" />
+	<!-- —联邦武器— -->
+	<text key="Defenden" text="防卫者" />
+	<text key="Escort MkII" text="护卫者" />
+	<text key="Advancor" text="前展" />
+	<text key="Staror" text="星卫" />
+	<text key="Stifler" text="遏制" />
+	<text key="Crack" text="裂隙" />
+	<text key="Justice" text="公正-MG" />
+	<text key="Affirm" text="断言-RF" />
+	<text key="Balance" text="制衡-AR" />
+	<text key="Sentence" text="判决-SG" />
+	<text key="Decrees" text="律法-SMG" />
+	<!-- —联邦支援— -->
+	<text key="Fire mission" text="火炮支援" />
+	<text key="fire one round." text="1轮迫击炮打击" />
+	<text key="Roger, wait one." text="收到，稍等" />
+	<text key="Round on the way." text="迫击炮来袭" />
+	
+	
+
+<!-- ——工团—— -->
+	<!-- —工团军衔— -->
+	<text key="Labourer" text="劳工" />
+	<text key="Labourer 1st Class" text="一等劳工" />
+	<text key="Skillic Labourer" text="熟练劳工" />
+	<text key="Technician" text="技工" />
+	<text key="Operator" text="操作员" />
+	<text key="Operator 1st Class" text="一等操作员" />
+	<text key="Overseer" text="监工" />
+	<text key="Foreman" text="领班" />
+	<text key="Fore-Headman" text="副工头" />
+	<text key="Headman" text="工头" />
+	<text key="Fore-Chief" text="副主管" />
+	<text key="Big Chief" text="主管" />
+	<text key="Fore-Overman" text="总管" />
+	<text key="Overman" text="总领" />
+	<text key="Commissioner" text="专员" />
+	<text key="Task-Commissioner" text="特遣专员" />
+	<text key="Jurisdicitional Leader" text="辖区领袖" />
+	<text key="Jurisdicitional Leader (II)" text="辖区领袖" />
+	<text key="Jurisdicitional Leader (III)" text="辖区领袖" />
+	<text key="Jurisdicitional Leader (IV)" text="辖区领袖" />
+	<text key="Jurisdicitional Leader (V)" text="辖区领袖" />
+	<text key="Block Personal" text="区块权控" />
+	<text key="Inner Circle" text="核心集团" />
+	<text key="Big Brother" text="老大哥" />
+	<!-- —工团武器— -->
+	<text key="Arbitor" text="裁决者" />
+	<text key="Capsize" text="倾覆" />
+	<text key="Fillpud" text="填充" />
+	<text key="Fillpud-Bayonet" text="填充-刺刀" />
+	<text key="Fusion" text="聚变" />
+	<text key="Hellk" text="何力科步枪" />
+	<text key="Hellk-Bayonet" text="何力科步枪-刺刀" />
+	<text key="Trenchor" text="堑壕" />
+	<text key="Warn" text="警告" />
+	<!-- —工团支援— -->
+  
+
+<!-- ——邪教—— -->
+	<!-- —邪教军衔— -->
+	<text key="Porter" text="护工" />
+	<text key="Adherent" text="信徒" />
+	<text key="Faithful" text="忠教徒" />
+	<text key="Friar" text="修士" />
+	<text key="Lushfriar" text="繁茂修士" />
+	<text key="Caretaker" text="代管人" />
+	<text key="Tree Priest" text="树木神甫" />
+	<text key="Guard Presbyter" text="门卫神甫" />
+	<text key="Foliage Bishop" text="枝叶主教" />
+	<text key="Crown Bishop" text="树冠主教" />
+	<text key="Archbishop" text="督主教" />
+	<text key="Dim Archbishop" text="无光督主教" />
+	<text key="Pope" text="教皇" />
+	<text key="Darkwood Pope" text="林地教皇" />
+	<text key="Gtee Henchman" text="格特心腹" />
+	<text key="Gtee Assistant" text="格特副手" />
+	<!-- —邪教武器— -->
+	<!-- —邪教支援— -->
+
+<!-- ——原版物件—— -->
+	<text key="default" text="默认" />
+	<text key="MG deploy" text="重机枪部署包" />
+	<text key="MG" text="重机枪" />
+	<text key="D40mm-Flak" text="Flak 40mm防空炮" />
+	<text key="Cover deploy" text="掩体部署包" />
+	<text key="Humvee MG" text="悍马机枪" />
+	<text key="whiskey bottle" text="威士忌" />
+	<text key="cigarettes" text="香烟" />
+	<text key="100 dollars" text="100美元" />
+	<text key="GameGirl" text="GameGirl游戏机" />
+	<text key="gem" text="宝石" />
+	<text key="Lona Misa" text="蒙娜丽莎" />
+	<text key="Holy Bible" text="圣经" />
+	<text key="Holy Koran" text="古兰经" />
+	<text key="chewing-gum" text="口香糖" />
+	<text key="Horny magazine" text="小黄书" />
+	<text key="comic book" text="漫画书" />
+	<text key="RWR handbook" text="RWR游戏手册" />
+	<text key="Oscar statue" text="奥斯卡小金人" />
+	<text key="cigars" text="雪茄" />
+	<text key="beer can" text="啤酒罐" />
+	<text key="lighter" text="打火机" />
+	<text key="steroids" text="肾上腺素" />
+	<text key="Teddy Bear" text="泰迪熊" />
+	<text key="Ordnance Shovel" text="工兵铲" />
+
+	<text key="Buckshot Bess Musket" text="燧发枪"/>
+	<text key="Grenade Launcher" text="自动榴弹发射器"/>
+	<text key="GL Deploy" text="榴弹发射器部署包"/>
+	<text key="Patriot" text="武装皮卡"/>
+	<text key="Radar Tank" text="雷达坦克"/>
+	
+	
+</translation>
+
+

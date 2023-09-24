@@ -4,8 +4,10 @@
   <weapon file="B_w_defend.weapon" />
   <weapon file="B_w_advancor.weapon" />
   <weapon file="B_w_staror.weapon" />
+  <weapon file="B_w_staror_ai.weapon" />
   <weapon file="B_w_stifler.weapon" />
   <weapon file="B_w2_crack.weapon" />
+  <weapon file="B_w2_crack_ai.weapon" />
 
 	<!-- T2 -->
   <weapon file="B_w_escortMkII.weapon" />

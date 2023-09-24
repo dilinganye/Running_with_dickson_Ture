@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="Y_w_Group166Chunk_Construct.weapon">
+    <tag name="cqb" />
+    <tag name="sg" />
+    <specification retrigger_time="0.38" 
+    accuracy_factor="0.7" 
+    sustained_fire_grow_step="8.0" 
+    sustained_fire_diminish_rate="1.5" 
+    magazine_size="16" 
+    can_shoot_standing="1" 
+    suppressed="0" 
+    name="Construct" 
+    class="0" 
+    reload_one_at_a_time="1" 
+    sight_range_modifier="1.05" 
+    projectile_speed="95.0" 
+    projectiles_per_shot="16" />
+
+    <animation key="recoil" ref="27" />
+    <animation key="cycle" ref="28" />
+    <animation key="reload" ref="29" />
+    <sound key="fire" fileref="uts15_shot.wav" pitch_variety="0.05" volume="0.8" />
+    <sound key="cycle" fileref="mossberg500_cycle.wav" />
+    <sound key="reload_one" fileref="mossberg500_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="Y_w_Group166Chunk_Construct.xml" />
+
+    <hud_icon filename="cs.png" />
+    <commonness value="0.004" can_respawn_with="0" in_stock="1" />
+    <inventory encumbrance="10.0" price="1500.0" />
+    
+  	<capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="1.0" />    
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet_yellow.projectile">
+        <result class="hit" 
+        kill_probability="0.85" 
+        kill_decay_start_time="0.284" 
+        kill_decay_end_time="0.32" />
+    </projectile>
+   
+    <modifier class="speed" value="-0.025" />    
+
+	<stance state_key="running" accuracy="0.2" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.5" />
+	<stance state_key="standing" accuracy="0.755" />
+	<stance state_key="crouching" accuracy="0.85" />
+	<stance state_key="prone" accuracy="0.45" /> 
+	<stance state_key="prone_moving" accuracy="0.2" />
+	<stance state_key="over_wall" accuracy="0.5" />	
+</weapon>
+
